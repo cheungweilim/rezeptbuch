@@ -1,9 +1,0 @@
-fig:nice-fig
-tab:nice-tab
-über
-kochrezepte
-todo-ham-dan-咸蛋
-bung-niu
-backrezepte
-chapters-and-sub-chapters
-captioned-figures-and-tables
