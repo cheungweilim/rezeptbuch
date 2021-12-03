@@ -7,10 +7,18 @@ All chapters start with a first-level heading followed by your chapter title, li
 
 ## TODO! Ham Dan 咸蛋
 
-![Das ist ein Ei als Beispielbild.](img/example-egg.jpg)
+### TO-DO Liste
+
+- Bild von Gericht einfügen
+-  ~~Zutaten bestimmen~~
+- Zutatenmenge für 4 Portionen bestimmen
+- Zubereitungstext ausformulieren 
+
 
 
 ### Beschreibung {-}
+
+![Das ist ein Ei als Beispielbild.](img/example-egg.jpg)
 
 Das Gericht kommt aus Vietnam und wurde vor allem von armen Personen gekocht, die sich kaum etwas leisten konnten. Daher wird das salzige Gericht ursprünglich nur mit Reis gemischt und gegessen.
 

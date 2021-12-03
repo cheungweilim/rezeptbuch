@@ -2,33 +2,31 @@
 
 Cross-references make it easier for your readers to find and link to elements in your book.
 
-## Chapters and sub-chapters
+## Beispiel Rezept 咸蛋
 
-There are two steps to cross-reference any heading:
+### TO-DO Liste
 
-1. Label the heading: `# Hello world {#nice-label}`. 
-    - Leave the label off if you like the automated heading generated based on your heading title: for example, `# Hello world` = `# Hello world {#hello-world}`.
-    - To label an un-numbered heading, use: `# Hello world {-#nice-label}` or `{# Hello world .unnumbered}`.
+- Bild von Gericht einfügen
+-  ~~Zutaten bestimmen~~
+- Zutatenmenge für 4 Portionen bestimmen
+- Zubereitungstext ausformulieren 
 
-1. Next, reference the labeled heading anywhere in the text using `\@ref(nice-label)`; for example, please see Chapter \@ref(cross). 
-    - If you prefer text as the link instead of a numbered reference use: [any text you want can go here](#cross).
 
-## Captioned figures and tables
 
-Figures and tables *with captions* can also be cross-referenced from elsewhere in your book using `\@ref(fig:chunk-label)` and `\@ref(tab:chunk-label)`, respectively.
+### Beschreibung {-}
 
-See Figure \@ref(fig:nice-fig).
+![Das ist ein Ei als Beispielbild.](img/example-egg.jpg)
 
-```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center', fig.alt='Plot with connected points showing that vapor pressure of mercury increases exponentially as temperature increases.'}
-par(mar = c(4, 4, .1, .1))
-plot(pressure, type = 'b', pch = 19)
-```
+Das Gericht kommt aus Vietnam und wurde vor allem von armen Personen gekocht, die sich kaum etwas leisten konnten. Daher wird das salzige Gericht ursprünglich nur mit Reis gemischt und gegessen.
 
-Don't miss Table \@ref(tab:nice-tab).
+### Zutatenliste {-}
 
-```{r nice-tab, tidy=FALSE}
-knitr::kable(
-  head(pressure, 10), caption = 'Here is a nice table!',
-  booktabs = TRUE
-)
-```
+Zutat | Menge 
+---|---:
+Eier | beliebig
+Fischsoße | ?
+Helle Sojasoße 生油 oder Maggi Gewürz | ?
+
+### Zubereitung {-}
+
+Eier werden fesgekocht. Die festgekochten Eier werden klein zerhackt und durchgemixt. Zum Abschmecken werden zuerst Fischsoße und Sojasoße dazugegeben. Zuletzt wird nach etwas mit Salz abgeschmeckt. Wenig Salz wird gebraucht, da Fisch- und Sojasoße sehr salzig sind. 

@@ -7,7 +7,7 @@ date: "2021-12-03"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
-# url: your book url like https://bookdown.org/yihui/bookdown
+url: https://github.com/Wei-Lim/Rezeptbuch
 # cover-image: path to the social sharing image like images/cover.jpg
 description: |
   Eine Rezeptsammlung, das mit RMarkdown als HTML-Buch dargestellt wird.
@@ -67,3 +67,10 @@ In diesem Buch werden die verschiedenen Rezepte von Lisa und William gesammelt. 
 
 1. Kochen
 2. Backen
+
+
+## To-Do Liste
+
+- HTML-Buch auf Deutsch einstellen
+- Einführungstext verfassen
+- GitHub Beschreibungstext verfassen
