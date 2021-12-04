@@ -39,15 +39,40 @@ Eier werden fesgekocht. Die festgekochten Eier werden klein zerhackt und durchge
 
 ## Bung Niu
 
+### TO-DO Liste
+
+- Bild von Gericht einfügen
+-  ~~Zutaten bestimmen~~
+- Zutatenmenge für 4 Portionen bestimmen
+- Zubereitungstext formulieren 
+
 ### Beschreibung {-}
+Reisnudelsuppe mit Schweinsknochen
 
 ### Zutatenliste {-}
 
+#### Suppe {-}
 Zutat | Menge 
 ---|---:
- | 
- |
- |
+Schweinsknochen | 
+Tomatenmark (3-fach konzentriert) | 0,5 Tube (100 g)
+Frische Tomaten | ca. 650 g
+Fischsoße | 
+Zwiebeln | 2 große (ca. 150 g pro Stück)
+Eier | 4 M Eier
+Wasser | 1,5 l
+Sonnenblumenöl | 
+
+
+#### Beilagen {-}
+
+Zutat | Menge 
+---|---:
+Reisnudeln | 400 g  
+Eisbergsalat |
+Sojasprossen |
+Frühlingszwiebeln |
+Zitrone oder Limette | 
 
 ### Zubereitung {-}
 
