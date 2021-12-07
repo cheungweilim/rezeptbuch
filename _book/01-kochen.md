@@ -37,7 +37,7 @@ Eier werden fesgekocht. Die festgekochten Eier werden klein zerhackt und durchge
 
 
 
-## Bung Niu
+## TO-DO Bung Niu
 
 ### TO-DO Liste
 
@@ -76,3 +76,52 @@ Zitrone oder Limette |
 
 ### Zubereitung {-}
 
+
+
+
+## TO-DO Chicken madras
+
+von bbcgoodfood.com (Elena Silcock)
+
+### TO-DO Liste
+
+- Bild von Gericht einfügen
+-  ~~Zutaten bestimmen~~
+- Zutatenmenge für 4 Portionen bestimmen
+- Zubereitungstext formulieren 
+
+### Beschreibung {-}
+Indisches Hähnchen-Curry
+
+### Zutatenliste {-}
+
+Zutat | Menge 
+---|---:
+Zwiebel | 1 (geviertelt)
+Knoblauch | 2 Zehe
+Ingwer | 1 Daumengroß geschält
+Chili (rot) | 1/2
+Öl (vegetarisch) | 1 Teelöffel
+Kurkuma | 1/2 Teelöffel
+Kreuzkümmel gemahlen | 1 Teelöffel
+Koriander gemahlen | 1 Teelöffel
+Chilipulver | 1-2 Teelöffel
+Hähnchenbrust | 4 gestückelt
+Tomaten gehackt | 400 g
+Reis gekocht |
+
+
+### Zubereitung {-}
+
+1. Mit einem Mixer die geviertelten Zwiebeln, die zwei Knoblauchzehen, den 
+  Ingwer und die halbe Chili zu einer Paste zerkleinern.
+2. Öl in Pfanne erhitzen und dann die Paste für 5 min anbraten bis sie weich 
+  wird. Wenn sie an der Pfanne klebt, dann füge etwas Wasser hinzu.
+3. Füge Kurkuma, Kreuzkümmel, Koriander und Chilipulver hinzu, rühre gut um und
+  koche für ein paar Minuten, um die Paste etwas zu toasten. Danach füge die 
+  Hähnchenbrust (Stücke) hinzu und mische diese mit der Paste, so dass 
+  die Stücke alle mit der Gewürzmischung überdeckt sind.
+4. Koche die Hähnchenbrust bis sie weiß wird. Evtl. etwas Wasser hinzufügen.
+5. Gieße die gehackten Tomaten mit ein wenig gestreutem Salz in die Pfanne, 
+  decke dann die Pfanne ab und koche das Gericht bei kleiner Hitze für 30 min
+  bis die Hähnchenbrust zart wird. 
