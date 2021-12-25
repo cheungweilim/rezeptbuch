@@ -2,12 +2,6 @@
 
 ## Fischsoßenessig
 
-### TO-DO Liste
-
-- Bild von Gericht einfügen
--  ~~Zutaten bestimmen~~
-- ~~Zubereitungstext ausformulieren~~
-
 ### Beschreibung {-}
 
 Fischsoßenessig wird besonders in der vietnamnesischen Küche verwendet, um die Speisen zu verfeinern. Passt besonders gut als Soße zu Reis oder zu Salat. 
