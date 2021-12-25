@@ -41,6 +41,9 @@ Zutat | Menge
 ---|---:
 Karotten | -
 Salz | - 
+Zucker | -
+Essig 5 % | -
+Wasser | -
 
 
 ### Zubereitung {-}
