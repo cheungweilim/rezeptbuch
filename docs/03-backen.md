@@ -66,10 +66,10 @@ Das Wasser wird erhitzt bis es kocht, dann wird bei kochendem Wasser das Zucker 
 #### Wasser- und Butterteig {-}
 Die Zutaten für den Wasserteig in einer Schüssel mixen. Ebenso werden die Zutaten für den Butterteig in einem anderen Schüssel gemischt. Um nun den "Blätterteig" zu erhalten, wird der Wasserteig auf der Theke ausgerollt, Dabei soll geachtet werden, dass auf der Theke genug Mehl bestreut ist, damit der Wasserteig beim Ausrollen nicht klebt. Auf den ausgerollten Wasserteig wird der Butterteig drauf gestrichen. Nun wird das Teiggemisch zusammengefaltet und wieder ausgerollt. Dies wird nun 8-10 Mal wiederholt. Der Teig soll so wie beim Croissant-Teig aussehen.
 
+
 #### Dan Ta {-}
 Die Dan Ta Form wird mit Öl bestrichen. Der Teig wird ausgerollt und mittels einem runden Deckel ein Teilstück herausgeschnitten. Das Teilstück wird in die Form angelegt. Anschließen wird die Füllung in die Teigform gegossen.
 
 Backofentemperatur: 180 °C, Backzeit: ???? 
-
 
 
