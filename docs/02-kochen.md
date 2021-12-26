@@ -47,6 +47,8 @@ Eier werden fesgekocht. Die festgekochten Eier werden klein zerhackt und durchge
 - Zubereitungstext formulieren 
 
 ### Beschreibung {-}
+![BungNie ohne Schweinsknochen aufgenommen.](img/BungNiu_480.jpg)
+
 Reisnudelsuppe mit Schweinsknochen
 
 ### Zutatenliste {-}
@@ -108,6 +110,7 @@ Koriander gemahlen | 1 Teelöffel
 Chilipulver | 1-2 Teelöffel
 Hähnchenbrust | 4 gestückelt
 Tomaten gehackt | 400 g
+Salz | Prise
 Reis gekocht |
 
 

@@ -35,7 +35,7 @@ Vanilin Zucker | 1 Packung (8 g)
 
 Zutat | Menge 
 ---|---:
-Milch | 600 g
+Mehl | 600 g
 Wasser | 400 ml
 Zucker | 1 Esslöffel
 Salz | 1 Teelöffel
@@ -46,7 +46,7 @@ Backpulver | 2 Teelöffel
 
 Zutat | Menge 
 ---|---:
-Milch | 300 g
+Mehl | 300 g
 Butter (weich) | 250 g
 
 #### Dan Ta {-}
@@ -61,7 +61,7 @@ Dan Ta Gebäckform (Muffin) | beliebig
 
 #### Füllung {-}
 
-Das Wasser wird erhitzt bis es kocht, dann wird bei kochendem Wasser das Zucker beigefügt. Sobald das Zucker sich im Wasser aufgelöst hat, wird der Herd abgeschaltet damit das Zuckerwasser sich abkühlen kann. Während das Zucker abkühlt, können die sechs Eier zerschlagen und verquirllt werden. Die verquirllten Eier können nun mit einer Packung Vanilin Zucker und 240 ml Milch mit dem Zuckerwasser vermischt werden. Eventuell muss Gemisch ausgesiebt werden, um zum Beispiel Eierschalen zu entfernen.
+Das Wasser wird erhitzt bis es kocht, dann wird bei kochendem Wasser der Zucker beigefügt. Sobald der Zucker sich im Wasser aufgelöst hat, wird der Herd abgeschaltet damit das Zuckerwasser sich abkühlen kann. Während der Zucker abkühlt, können die sechs Eier zerschlagen und verquirllt werden. Die verquirllten Eier können nun mit einer Packung Vanilin Zucker und 240 ml Milch mit dem Zuckerwasser vermischt werden. Eventuell muss Gemisch ausgesiebt werden, um zum Beispiel Eierschalen zu entfernen.
 
 #### Wasser- und Butterteig {-}
 Die Zutaten für den Wasserteig in einer Schüssel mixen. Ebenso werden die Zutaten für den Butterteig in einem anderen Schüssel gemischt. Um nun den "Blätterteig" zu erhalten, wird der Wasserteig auf der Theke ausgerollt, Dabei soll geachtet werden, dass auf der Theke genug Mehl bestreut ist, damit der Wasserteig beim Ausrollen nicht klebt. Auf den ausgerollten Wasserteig wird der Butterteig drauf gestrichen. Nun wird das Teiggemisch zusammengefaltet und wieder ausgerollt. Dies wird nun 8-10 Mal wiederholt. Der Teig soll so wie beim Croissant-Teig aussehen.
@@ -70,6 +70,6 @@ Die Zutaten für den Wasserteig in einer Schüssel mixen. Ebenso werden die Zuta
 #### Dan Ta {-}
 Die Dan Ta Form wird mit Öl bestrichen. Der Teig wird ausgerollt und mittels einem runden Deckel ein Teilstück herausgeschnitten. Das Teilstück wird in die Form angelegt. Anschließen wird die Füllung in die Teigform gegossen.
 
-Backofentemperatur: 180 °C, Backzeit: ???? 
+Backofentemperatur: 200 °C Umluft, Backzeit: 20 min
 
 
