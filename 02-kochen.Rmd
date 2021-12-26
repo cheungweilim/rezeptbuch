@@ -47,6 +47,8 @@ Eier werden fesgekocht. Die festgekochten Eier werden klein zerhackt und durchge
 - Zubereitungstext formulieren 
 
 ### Beschreibung {-}
+![Das ist ein Ei als Beispielbild.](img/BungNiu_480.jpg)
+
 Reisnudelsuppe mit Schweinsknochen
 
 ### Zutatenliste {-}
