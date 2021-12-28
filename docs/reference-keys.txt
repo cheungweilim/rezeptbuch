@@ -1,4 +1,3 @@
-fig:unnamed-chunk-1
 über
 to-do-liste
 grundrezepte

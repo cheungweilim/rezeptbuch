@@ -48,7 +48,7 @@ Wasser | -
 
 #### Zubereitung {-}
 
-Karotten schälen und in Streifen reiben. Danach wird etwas Salz auf die geriebenen Karottenstreifen eingestreut. Nach einer kurzen Einwirkungszeit wird das Wasser in den Karottenstreifen mit der Hand ausgepresst. Mittels Essig und Zucker werden die Karotten abgeschmeckt. Zur längeren Aufbewahrung werden die Streifen in Gläser eingelegt und mit Wasser aufgefüllt, sodass die Karotten komplett mit Wasser überdeckt sind. 
+Die Karotten schälen und in Streifen reiben. Danach wird etwas Salz auf die geriebenen Karottenstreifen gestreut. Nach einer kurzen Einwirkzeit wird das Wasser aus den Karottenstreifen mit der Hand ausgepresst. Mittels Essig und Zucker werden die Karotten abgeschmeckt. Zur längeren Aufbewahrung werden die Streifen in Gläser eingelegt. Alles wird mit Wasser aufgefüllt, sodass die Karotten komplett mit Wasser bedeckt sind. 
 
 
 ## Ziehnudeln 拉面

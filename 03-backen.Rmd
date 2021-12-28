@@ -61,15 +61,15 @@ Dan Ta Gebäckform (Muffin) | beliebig
 
 ##### Füllung {-}
 
-Das Wasser wird erhitzt bis es kocht, dann wird bei kochendem Wasser der Zucker beigefügt. Sobald der Zucker sich im Wasser aufgelöst hat, wird der Herd abgeschaltet damit das Zuckerwasser sich abkühlen kann. Während der Zucker abkühlt, können die sechs Eier zerschlagen und verquirllt werden. Die verquirllten Eier können nun mit einer Packung Vanilin Zucker und 240 ml Milch mit dem Zuckerwasser vermischt werden. Eventuell muss Gemisch ausgesiebt werden, um zum Beispiel Eierschalen zu entfernen.
+Das Wasser wird erhitzt bis es kocht, dann wird bei kochendem Wasser der Zucker hinzugefügt. Sobald der Zucker sich im Wasser aufgelöst hat, wird der Herd abgeschaltet damit das Zuckerwasser abkühlen kann. Während der Zucker abkühlt, können die sechs Eier zerschlagen und verquirllt werden. Die verquirlten Eier können nun mit einer Packung Vanilin Zucker und 240 ml Milch mit dem Zuckerwasser vermischt werden. Eventuell muss das Gemisch ausgesiebt werden, um zum Beispiel Eierschalen zu entfernen.
 
 ##### Wasser- und Butterteig {-}
-Die Zutaten für den Wasserteig in einer Schüssel mixen. Ebenso werden die Zutaten für den Butterteig in einem anderen Schüssel gemischt. Um nun den "Blätterteig" zu erhalten, wird der Wasserteig auf der Theke ausgerollt, Dabei soll geachtet werden, dass auf der Theke genug Mehl bestreut ist, damit der Wasserteig beim Ausrollen nicht klebt. Auf den ausgerollten Wasserteig wird der Butterteig drauf gestrichen. Nun wird das Teiggemisch zusammengefaltet und wieder ausgerollt. Dies wird nun 8-10 Mal wiederholt. Der Teig soll so wie beim Croissant-Teig aussehen.
+Die Zutaten für den Wasserteig in einer Schüssel mixen. Ebenso werden die Zutaten für den Butterteig in einer anderen Schüssel gemischt. Um nun den "Blätterteig" zu erhalten, wird der Wasserteig auf der Theke ausgerollt, Dabei soll darauf geachtet werden, dass die Theke mit genug Mehl bestreut ist, damit der Wasserteig beim Ausrollen nicht klebt. Auf den ausgerollten Wasserteig wird der Butterteig drauf gestrichen. Nun wird das Teiggemisch zusammengefaltet und wieder ausgerollt. Dies wird  8-10 Mal wiederholt. Der Teig soll wie bei einem Croissant-Teig aussehen.
 
 
 ##### Dan Ta {-}
-Die Dan Ta Form wird mit Öl bestrichen. Der Teig wird ausgerollt und mittels einem runden Deckel ein Teilstück herausgeschnitten. Das Teilstück wird in die Form angelegt. Anschließen wird die Füllung in die Teigform gegossen.
+Die Dan Ta Form wird mit Öl bestrichen. Der Teig wird ausgerollt und mit einem runden Deckel in Kreise geschnitten. Die kreisförmigen Teilstücke werden in die Form gelegt. Anschließen wird die Füllung in die Teigform gegossen.
 
-Backofentemperatur: 200 °C Umluft, Backzeit: 20 min
+Backofentemperatur: 200 °C Umluft, Backzeit: ca. 20 min
 
 
