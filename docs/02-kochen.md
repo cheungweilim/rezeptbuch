@@ -1,11 +1,6 @@
 # Kochrezepte
 
-All chapters start with a first-level heading followed by your chapter title, like the line above. There should be only one first-level heading (`#`) per .Rmd file.
-
-
-
-
-## TODO! Ham Dan 咸蛋
+## Ham Dan 咸蛋
 
 ### TO-DO Liste
 
@@ -16,13 +11,11 @@ All chapters start with a first-level heading followed by your chapter title, li
 
 
 
-### Beschreibung {-}
-
-![Das ist ein Ei als Beispielbild.](img/example-egg.jpg)
+#### Beschreibung {-}
 
 Das Gericht kommt aus Vietnam und wurde vor allem von armen Personen gekocht, die sich kaum etwas leisten konnten. Daher wird das salzige Gericht ursprünglich nur mit Reis gemischt und gegessen.
 
-### Zutatenliste {-}
+#### Zutatenliste {-}
 
 Zutat | Menge 
 ---|---:
@@ -30,14 +23,14 @@ Eier | beliebig
 Fischsoße | ?
 Helle Sojasoße 生油 oder Maggi Gewürz | ?
 
-### Zubereitung {-}
+#### Zubereitung {-}
 
 Eier werden fesgekocht. Die festgekochten Eier werden klein zerhackt und durchgemixt. Zum Abschmecken werden zuerst Fischsoße und Sojasoße dazugegeben. Zuletzt wird nach etwas mit Salz abgeschmeckt. Wenig Salz wird gebraucht, da Fisch- und Sojasoße sehr salzig sind. 
 
 
 
 
-## TO-DO Bung Niu
+## Bung Niu
 
 ### TO-DO Liste
 
@@ -46,14 +39,25 @@ Eier werden fesgekocht. Die festgekochten Eier werden klein zerhackt und durchge
 - Zutatenmenge für 4 Portionen bestimmen
 - Zubereitungstext formulieren 
 
-### Beschreibung {-}
-![BungNie ohne Schweinsknochen aufgenommen.](img/BungNiu_480.jpg)
+#### Beschreibung {-}
+
+
+
+```r
+knitr::include_graphics("img/BungNiu_480x360.jpg")
+```
+
+<div class="figure">
+<img src="img/BungNiu_480x360.jpg" alt="Bung Niu Nudelsuppe ohne Schweinsknochen" width="100%" />
+<p class="caption">(\#fig:unnamed-chunk-1)Bung Niu Nudelsuppe ohne Schweinsknochen</p>
+</div>
+
 
 Reisnudelsuppe mit Schweinsknochen
 
-### Zutatenliste {-}
+#### Zutatenliste {-}
 
-#### Suppe {-}
+##### Suppe {-}
 Zutat | Menge 
 ---|---:
 Schweinsknochen | 
@@ -66,7 +70,7 @@ Wasser | 1,5 l
 Sonnenblumenöl | 
 
 
-#### Beilagen {-}
+##### Beilagen {-}
 
 Zutat | Menge 
 ---|---:
@@ -76,12 +80,12 @@ Sojasprossen |
 Frühlingszwiebeln |
 Zitrone oder Limette | 
 
-### Zubereitung {-}
+#### Zubereitung {-}
 
 
 
 
-## TO-DO Chicken madras
+## Chicken madras
 
 von bbcgoodfood.com (Elena Silcock)
 
@@ -92,10 +96,10 @@ von bbcgoodfood.com (Elena Silcock)
 - Zutatenmenge für 4 Portionen bestimmen
 - Zubereitungstext formulieren 
 
-### Beschreibung {-}
+#### Beschreibung {-}
 Indisches Hähnchen-Curry
 
-### Zutatenliste {-}
+#### Zutatenliste {-}
 
 Zutat | Menge 
 ---|---:
@@ -114,7 +118,7 @@ Salz | Prise
 Reis gekocht |
 
 
-### Zubereitung {-}
+#### Zubereitung {-}
 
 1. Mit einem Mixer die geviertelten Zwiebeln, die zwei Knoblauchzehen, den 
   Ingwer und die halbe Chili zu einer Paste zerkleinern.

@@ -1,12 +1,14 @@
+# (PART) Rezepte {-}
+
 # Grundrezepte
 
 ## Fischsoßenessig
 
-### Beschreibung {-}
+#### Beschreibung {-}
 
 Fischsoßenessig wird besonders in der vietnamnesischen Küche verwendet, um die Speisen zu verfeinern. Passt besonders gut als Soße zu Reis oder zu Salat. 
 
-### Zutatenliste {-}
+#### Zutatenliste {-}
 
 Zutat | Menge 
 ---|---:
@@ -14,6 +16,10 @@ Wasser | 2 Tassen
 Zucker | 1 Tasse
 Fischsoße | 1 Tasse
 Weinbrandt- oder Apfelessig (5 %) | 1/2 Tasse
+
+
+#### Zubereitung {-}
+Alle Zutaten mixen.
 
 
 ## Eingelegte Karottenstreifen
@@ -26,10 +32,10 @@ Weinbrandt- oder Apfelessig (5 %) | 1/2 Tasse
 
 
 
-### Beschreibung {-}
+#### Beschreibung {-}
 
 
-### Zutatenliste {-}
+#### Zutatenliste {-}
 
 Zutat | Menge 
 ---|---:
@@ -40,12 +46,15 @@ Essig 5 % | -
 Wasser | -
 
 
-### Zubereitung {-}
+#### Zubereitung {-}
 
 Karotten schälen und in Streifen reiben. Danach wird etwas Salz auf die geriebenen Karottenstreifen eingestreut. Nach einer kurzen Einwirkungszeit wird das Wasser in den Karottenstreifen mit der Hand ausgepresst. Mittels Essig und Zucker werden die Karotten abgeschmeckt. Zur längeren Aufbewahrung werden die Streifen in Gläser eingelegt und mit Wasser aufgefüllt, sodass die Karotten komplett mit Wasser überdeckt sind. 
 
 
 ## Ziehnudeln 拉面
 
+### TO-DO
 
 ## Vietnamnesisch geröstete Zwiebeln
+
+### TO-DO
