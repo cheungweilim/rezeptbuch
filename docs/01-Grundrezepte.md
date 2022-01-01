@@ -58,3 +58,30 @@ Die Karotten schälen und in Streifen reiben. Danach wird etwas Salz auf die ger
 ## Vietnamnesisch geröstete Zwiebeln
 
 ### TO-DO
+
+
+## Getrocknete Eiernudeln
+
+### TO-DO
+
+- Text besser ausformulieren
+- Bild einfügen
+
+#### Beschreibung {-}
+
+Eiernudeln für 100 g Mehl.
+
+#### Zutatenliste {-}
+
+Zutat | Menge 
+---|---:
+Hartweizengrieß | 50 g
+Weizenmehl | 50 g
+Olivenöl | etwas
+Wasser | 2 Esslöffel
+
+#### Zubereitung {-}
+1. Zutaten vermischen bis der Teig die richtige Konsistenz hat
+2. Ca. 1 Stunde im Kühlschrank kühlen
+3. Nudeln formen (Nudelmaschine)
+4. Zum Trocknen aufhängen.
