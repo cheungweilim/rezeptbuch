@@ -117,3 +117,63 @@ Reis gekocht |
 3. Füge Kurkuma, Kreuzkümmel, Koriander und Chilipulver hinzu, rühre gut um und koche alles für ein paar Minuten, um die Paste etwas zu "toasten". Füge danach die Hähnchenbrust (Stücke) hinzu und mische diese mit der Paste, so dass die Stücke alle mit der Gewürzmischung überdeckt sind.
 4. Koche die Hähnchenbrust bis sie weiß wird. Evtl. etwas Wasser hinzufügen.
 5. Gieße die gehackten Tomaten mit ein wenig gestreutem Salz in die Pfanne, decke dann die Pfanne mit einem Deckel ab und koche das Gericht bei kleiner Hitze für 30 Minuten bis die Hähnchenbrust zart ist. 
+
+
+## Banh Cuon
+
+
+### TO-DO Liste
+
+- Bild von Gericht einfügen
+- Zutaten bestimmen
+- Zutatenmenge für 4 Portionen bestimmen
+- Zubereitungstext formulieren 
+
+#### Beschreibung {-}
+
+#### Zutatenliste {-}
+
+##### Teig
+
+Zutat | Menge 
+---|---:
+Tapiokastärke 木薯粉 | 200 g
+Reismehl 米粉 (white rice flour blau) | 200 g
+Weizenstärke, -mehl (wheat starch rot) | 2 Esslöffel
+Maisstärke | 2 Esslöffel
+Wasser (lauwarm) | 1 l
+Salz | 1 Teelöffel
+
+##### Füllung
+Zutat | Menge 
+---|---:
+Hackfleisch | ?? 300 g
+Zwiebeln | ??
+Morcheln | ??
+Maggi, Soja |
+Salz | ?
+Zucker | ?
+Pfeffer | ?
+Sesamöl | ?
+Austernsoße | ?
+
+##### Beilagen
+Zutat | Menge 
+---|---:
+Hackfleisch | ?? 300 g
+Zwiebeln | ??
+Morcheln | ??
+Maggi, Soja |
+Salz | ?
+Zucker | ?
+Pfeffer | ?
+Sesamöl | ?
+Austernsoße | ?
+
+
+#### Zubereitung {-}
+
+##### Teig
+
+Mehlsorten mixen und langsam Wasser hinzufügen, bis sich Blasen bilden. Abgedeckt 1 bis 2 h ziehen lassen.
+Bei heißer beschichteter Pfanne wird der flüssiger Teig reingegossen und abgedeckt. Nach kurzer Zeit wird der fertige Teig auf ein geöltes Teller geschmissen. Danach wird der Teig mit Füllung (gehackt, gemischt) eingerollt. 
