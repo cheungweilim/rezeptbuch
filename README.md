@@ -2,6 +2,9 @@ Willkommen!
 
 Das ist ein persönliches Rezeptbuch mit vielen von mir ausgewählten Rezepten. 
 
+Das Rezeptbuch ist unter folgender Adresse erreichbar:
+
+https://wei-lim.github.io/Rezeptbuch/
 
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 

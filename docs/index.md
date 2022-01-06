@@ -3,7 +3,7 @@ title: "Willis Rezeptbuch"
 author: 
   - William Truong
   - Lisa Gerste
-date: "2022-01-01"
+date: "2022-01-06"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography: [book.bib, packages.bib]
