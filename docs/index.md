@@ -1,14 +1,15 @@
 --- 
 title: "Willis Rezeptbuch"
-author: 
-  - William Truong
-  - Lisa Gerste
-date: "2022-01-06"
+author:
+- William Truong
+- Lisa Gerste
+date: "2022-03-07"
 site: bookdown::bookdown_site
 documentclass: book
-bibliography: [book.bib, packages.bib]
+bibliography:
+- book.bib
+- packages.bib
 url: https://github.com/Wei-Lim/Rezeptbuch
-# cover-image: path to the social sharing image like images/cover.jpg
 description: |
   Eine Rezeptsammlung, das mit RMarkdown als HTML-Buch dargestellt wird.
 biblio-style: apalike

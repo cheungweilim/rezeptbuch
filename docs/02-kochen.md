@@ -251,3 +251,45 @@ frische Chilis (dünne Scheiben) | ?
 2. Fett von der Oberflaeche abschöpfen, Rettich und Zwiebeln zugeben. Sternanis, die Zimtstange, Nelken, Pfefferkörner und Ingwer in einen kleinen Gewürzbeutel geben und zur Suppe geben. Zucker, Salz und Fischsoße unterrühren und Suppe bei mittlerer-niedriger Hitze mindestens 4 Stunden köcheln lassen (je länger de Suppe köchelt, desto besser). Am Ende der Kochzeit abschmecken und bei Bedarf nachsalzen. Suppe abseihen und zurück in den Topf geben. Erneut zum köcheln bringen. Knochen wegwerfen, aber das Fleisch von den Rinderknochen kann anderweitig verwendet werden.
 3. Reisnudeln 20 Minuten in kaltem Wasser einweichen. Einen großen Topf mit leicht gesalzenem Wasser zum Kochen bringen und Nudeln in kochendem Wasser weich kochen. Die Nudeln sollen noch Biss haben (ca. 5 Minuten). Das Rinderfilet in hauchdünne Scheiben schneiden. Es soll so dünn sein, dass es sofort durchgekocht ist.
 4. Ein paar Nudeln in jede Suppenschüssel geben und ein paar rohe Rindfleischscheiben darauf legen. Etwas Brühe und Nudeln in jede Schale geben. Mit Hoisin Soße und Chilisoße servieren. Zwiebel, Koriander, Sojasprossen, Thai Basilikum, Frühlingszwiebeln und Limette auf einer Platte auf den Tisch stellen, so dass sich jeder Gast individuell untermischen kann, was er möchte.
+
+
+## Ko Zü Youg - Schweinegulasch
+
+### TO-DO Liste
+
+- Bild von Gericht einfügen
+- ~~Zutaten bestimmen~~
+- ~~Zutatenmenge für 4 Portionen bestimmen~~
+- Zubereitungstext formulieren 
+
+#### Beschreibung {-}
+
+Schweinegulasch mit ganzen Eier nach vietnamnesischer Art, d. h. mit Fischsoße.
+
+##### Vegetarische Variante {-}
+
+Die vegetarische Variante ersetzt das Schweinefleisch mit Einlagen, wie z. B. Tofu, Rettich, Rosenkohl, usw. Statt Fischsoße kann auch Sojasoße verwendet werden. Allerdings ändert sich dabei der Geschmack des Gulasches.
+
+#### Zutatenliste {-}
+
+Zutat | Menge 
+---|---:
+Schweinebauch oder -krustenbraten | 500 g
+Fischsoße | 4 Esslöffel
+Zucker | 4 Teelöffel
+Dunkle Sojasoße 老抽 (optional) | 1 Teelöffel
+Eier (hart gekocht) | beliebig
+Wasser | 700 ml
+
+
+**Info:** Mit Reis als Beilage für 3 bis 4 Personen
+
+
+#### Zubereitung {-}
+
+1. Haare von der Schweinehaut entfernen
+2. Fleisch in Würfeln (ca. 2 cm) schneiden
+3. Im Topf wird Zucker bei mittler Hitze karamelisiert. Das Karamel darf nicht schwarz werden, braun ist ok. 
+4. Das Karamel mit Wasser ablöschen und mit Fischsoße und dunkle Sojasoße würzen.
+5. Gewürfeltes Fleisch und festgekochte Eier in den Topf geben, das Wasser zum Kochen bringen und 2 h köcheln lassen. 
+6. *Optional:* Gulasch für einen intensiveren Geschmack einen Tag ziehen lassen.
