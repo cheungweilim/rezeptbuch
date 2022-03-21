@@ -295,3 +295,42 @@ Wasser | 700 ml
 4. Das Karamel mit Wasser ablöschen und mit Fischsoße und dunkle Sojasoße würzen.
 5. Gewürfeltes Fleisch und festgekochte Eier in den Topf geben, das Wasser zum Kochen bringen und 2 h köcheln lassen. 
 6. *Optional:* Gulasch für einen intensiveren Geschmack einen Tag ziehen lassen.
+
+
+## Chinesische Kartoffelsuppe
+
+### TO-DO Liste
+
+- Bild von Gericht einfügen
+- ~~Zutaten bestimmen~~
+- Zutatenmenge für 4 Portionen bestimmen
+- Zubereitungstext formulieren 
+
+#### Beschreibung {-}
+
+
+#### Zutatenliste {-}
+
+Zutat | Menge 
+---|---:
+Kartoffel| - 
+Frühlingszwiebel | 6 Stück
+Ei (verquirllt) | 1 Stück
+Wasser | -
+Salz | -
+Kartoffelmehl | -
+Hühner-/Gemüsebbrühe | -
+Seasamöl |
+
+
+**Info:** Mit Reis als Beilage für 3 bis 4 Personen
+
+
+#### Zubereitung {-}
+
+1. Kartoffel in dünne Streifen schneiden und Frühlingszwiebeln klein hacken
+2. Kartoffel in kochendes Wasser ankochen
+3. Salz und Brühe hinzufügen. 
+4. Verquirlte Eier und Frühlingszwiebel hinzufügen. 
+5. In Wasser aufgelöster Kartoffelmehl für die Konsistenz hinzugeben.
+6. Mit Seasamöl abschmecken.
