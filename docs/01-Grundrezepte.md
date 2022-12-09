@@ -1,4 +1,4 @@
-# (PART) Grundrezepte {-}
+# (PART) Grundrezepte
 
 # Fischsoßenessig
 

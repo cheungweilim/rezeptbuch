@@ -1,4 +1,4 @@
-# (PART) Kochrezepte {-}
+# (PART) Kochrezepte 
 
 # Ham Dan 咸蛋
 
@@ -38,7 +38,7 @@ Die Eier werden fesgekocht. Die festgekochten Eier werden klein gehackt und durc
 - Zutatenmenge für 4 Portionen bestimmen
 - Zubereitungstext formulieren 
 
-## Beschreibung {-}
+## Beschreibung 
 
 
 <img src="img/BungNiu_480x360.jpg" width="100%" />
@@ -46,9 +46,9 @@ Die Eier werden fesgekocht. Die festgekochten Eier werden klein gehackt und durc
 
 Reisnudelsuppe mit Schweinsknochen
 
-## Zutatenliste {-}
+## Zutatenliste 
 
-### Suppe {-}
+### Suppe 
 Zutat | Menge 
 ---|---:
 Schweinsknochen | 
@@ -61,7 +61,7 @@ Wasser | 1,5 l
 Sonnenblumenöl | 
 
 
-### Beilagen {-}
+### Beilagen 
 
 Zutat | Menge 
 ---|---:
@@ -71,7 +71,7 @@ Sojasprossen |
 Frühlingszwiebeln |
 Zitrone oder Limette | 
 
-## Zubereitung {-}
+## Zubereitung 
 
 
 # Chicken madras
@@ -83,10 +83,10 @@ von bbcgoodfood.com (Elena Silcock)
 - Zutatenmenge für 4 Portionen bestimmen
 - Zubereitungstext formulieren 
 
-## Beschreibung {-}
+## Beschreibung 
 Indisches Hähnchen-Curry
 
-## Zutatenliste {-}
+## Zutatenliste 
 Zutat | Menge 
 ---|---:
 Zwiebel | 1 (geviertelt)
@@ -103,7 +103,7 @@ Tomaten gehackt | 400 g
 Salz | Prise
 Reis gekocht |
 
-## Zubereitung {-}
+## Zubereitung 
 1. Mit einem Mixer die geviertelten Zwiebeln, die zwei Knoblauchzehen, den Ingwer und die halbe Chili zu einer Paste zerkleinern.
 2. Öl in Pfanne erhitzen und dann die Paste für 5 Minuten anbraten bis sie weich wird. Wenn sie an der Pfanne klebt, etwas Wasser hinzufügen.
 3. Füge Kurkuma, Kreuzkümmel, Koriander und Chilipulver hinzu, rühre gut um und koche alles für ein paar Minuten, um die Paste etwas zu "toasten". Füge danach die Hähnchenbrust (Stücke) hinzu und mische diese mit der Paste, so dass die Stücke alle mit der Gewürzmischung überdeckt sind.
@@ -118,13 +118,13 @@ Reis gekocht |
 
 Beilagen müssen noch erweitert werden. Chinesische Namen müssen noch eingefügt werden. Und die Beilagen zum Essen müssen nochmals nachgefragt werden. Formulierung der Zubereitung (Füllung) ist noch zu vage.
 
-## Beschreibung {-}
+## Beschreibung 
 
 ...
 
-## Zutatenliste {-}
+## Zutatenliste 
 
-### Teig {-}
+### Teig 
 
 Zutat | Menge 
 ---|---:
@@ -135,7 +135,7 @@ Maisstärke | 2 Esslöffel
 Wasser (lauwarm) | 1 l
 Salz | 1 Teelöffel
 
-### Füllung {-}
+### Füllung 
 Zutat | Menge 
 ---|---:
 Schweinenacken oder Hackfleisch | ?? 300 g
@@ -148,7 +148,7 @@ Pfeffer | ?
 Sesamöl | ?
 Austernsoße | ?
 
-### Beilagen {-}
+### Beilagen 
 Zutat | Menge 
 ---|---:
 Fischsoßenessig | ?
@@ -161,9 +161,9 @@ Gurke (Streifen) | ?
 Eisbergsalat | ?
 Sojasprossen | ?
 
-## Zubereitung {-}
+## Zubereitung 
 
-### Teig {-}
+### Teig 
 
 Alle Mehlarten in einem großen Schüssel vermischen. 1 l Wasser wird unter stetigen Rühren des Teigs langsam in die Schüssel dazugegeben. Der Teig wird sehr zäh und ist so gewollt. Der Teig muss nun solange gerührt bis viele Blasen entstehen. Nun wird 2 Suppenlöffel Öl in die Schüssel gekippt und danach kommt das restliche 1 l Wasser in die Schüssel. Der Teig müsste jetzt relativ flüssig sein. Nun kommt die gute beschichtete Bratpfanne zum Einsatz. Diese wird ohne Öl (auf mittlere Hitze???) erhitzt.
 
@@ -175,7 +175,7 @@ ALTER TEXT
 Mehlsorten mixen und langsam Wasser hinzufügen, bis sich Blasen bilden. Abgedeckt 1 bis 2 h ziehen lassen.
 Bei heißer beschichteter, gute nicht klebende Pfanne (ohne Öl) wird der flüssiger Teig reingegossen und abgedeckt. Nach kurzer Zeit wird der fertige Teig auf ein geöltes Teller geschmissen. Danach wird der Teig mit Füllung (gehackt, gemischt) eingerollt. 
 
-### Füllung {-}
+### Füllung 
 Zwiebeln, Knoblauch, Morcheln und den Schweinenacken werden in einem Mixer zerhackt. Nun wird der zerhackte Schweinenacken mit Öl trocken gebraten. Danach werden Zwiebeln und Knoblauch hinzugefügt und mitbraten bis es duftet. Als letztes werden die Morcheln dazugegeben und mitgebraten. Als nächstes wird die Füllung mit Salz (wenig), Pfeffer, Zucker, Sojasoße, Sesamöl und Austernsoße abgeschmeckt. Wenn die Füllung fast fertig gebraten ist, wird Kartoffelmehl ohne Wasser hinzugegeben. Die Füllung soll nun leicht klebrig sein. Als letztes wird ein wenig Geschmacksverstärker für die Füllung verwendet.
 
 
@@ -188,17 +188,17 @@ Zwiebeln, Knoblauch, Morcheln und den Schweinenacken werden in einem Mixer zerha
 - Zutatenmenge für 4 Portionen bestimmen
 - Zubereitungstext formulieren 
 
-## Beschreibung {-}
+## Beschreibung 
 
 Vietnamnesische Rindernudelsuppe. 
 
-### Vegetarische Variante {-}
+### Vegetarische Variante 
 
 Die vegetarische Variante basiert auf einer Gemüsebrühe ohne Rinderknochen, Rinderfilet,  Fischsoße, Hoisin-Soße. Statt Fischsoße kann auch Sojasoße verwendet werden. Das Vorkochen der Rinderbrühe entfällt dann in der Zubereitung
 
-## Zutatenliste {-}
+## Zutatenliste 
 
-### Rinderbrühe {-}
+### Rinderbrühe 
 Zutat | Menge 
 ---|---:
 Rinderknochen mit Fleisch | 2,5 kg
@@ -213,13 +213,13 @@ Salz | ?
 Zucker | ?
 Fischsoße | ?
 
-### Einlage {-}
+### Einlage 
 Zutat | Menge 
 ---|---:
 Rinderfilet | 250 g
 Reisnudeln (flach 3 mm) | 700 g
 
-### Beilage {-}
+### Beilage 
 Zutat | Menge 
 ---|---:
 Koriander | ?
@@ -232,7 +232,7 @@ Hoisin Soße 海鲜酱 | ?
 frische Chilis (dünne Scheiben) | ?
 
 
-## Zubereitung {-}
+## Zubereitung 
 1. Rinderknochen in einen großen Suppentopf geben, salzen und Topf mit 7 l Wasser auffüllen. Zum Kochen bringen und Knochen 2 Stunden kochen.
 2. Fett von der Oberflaeche abschöpfen, Rettich und Zwiebeln zugeben. Sternanis, die Zimtstange, Nelken, Pfefferkörner und Ingwer in einen kleinen Gewürzbeutel geben und zur Suppe geben. Zucker, Salz und Fischsoße unterrühren und Suppe bei mittlerer-niedriger Hitze mindestens 4 Stunden köcheln lassen (je länger de Suppe köchelt, desto besser). Am Ende der Kochzeit abschmecken und bei Bedarf nachsalzen. Suppe abseihen und zurück in den Topf geben. Erneut zum köcheln bringen. Knochen wegwerfen, aber das Fleisch von den Rinderknochen kann anderweitig verwendet werden.
 3. Reisnudeln 20 Minuten in kaltem Wasser einweichen. Einen großen Topf mit leicht gesalzenem Wasser zum Kochen bringen und Nudeln in kochendem Wasser weich kochen. Die Nudeln sollen noch Biss haben (ca. 5 Minuten). Das Rinderfilet in hauchdünne Scheiben schneiden. Es soll so dünn sein, dass es sofort durchgekocht ist.
@@ -248,15 +248,15 @@ frische Chilis (dünne Scheiben) | ?
 - ~~Zutatenmenge für 4 Portionen bestimmen~~
 - Zubereitungstext formulieren 
 
-## Beschreibung {-}
+## Beschreibung 
 
 Schweinegulasch mit ganzen Eier nach vietnamnesischer Art, d. h. mit Fischsoße.
 
-### Vegetarische Variante {-}
+### Vegetarische Variante 
 
 Die vegetarische Variante ersetzt das Schweinefleisch mit Einlagen, wie z. B. Tofu, Rettich, Rosenkohl, usw. Statt Fischsoße kann auch Sojasoße verwendet werden. Allerdings ändert sich dabei der Geschmack des Gulasches.
 
-## Zutatenliste {-}
+## Zutatenliste 
 
 Zutat | Menge 
 ---|---:
@@ -271,7 +271,7 @@ Wasser | 700 ml
 **Info:** Mit Reis als Beilage für 3 bis 4 Personen
 
 
-## Zubereitung {-}
+## Zubereitung 
 
 1. Haare von der Schweinehaut entfernen
 2. Fleisch in Würfeln (ca. 2 cm) schneiden
@@ -290,10 +290,10 @@ Wasser | 700 ml
 - Zutatenmenge für 4 Portionen bestimmen
 - Zubereitungstext formulieren 
 
-## Beschreibung {-}
+## Beschreibung 
 
 
-## Zutatenliste {-}
+## Zutatenliste 
 
 Zutat | Menge 
 ---|---:
@@ -306,7 +306,7 @@ Kartoffelmehl | -
 Hühner-/Gemüsebbrühe | -
 Seasamöl |
 
-## Zubereitung {-}
+## Zubereitung 
 1. Kartoffel in dünne Streifen schneiden und Frühlingszwiebeln klein hacken
 2. Kartoffel in kochendes Wasser ankochen
 3. Salz und Brühe hinzufügen. 
@@ -316,7 +316,7 @@ Seasamöl |
 
 # Kübris Congee
 
-## Zutatenliste {-}
+## Zutatenliste 
 Zutat | Menge 
 ---|---:
 Kürbis | 500 g
@@ -328,7 +328,7 @@ Wasser |
 
 # Apfelrisotto (Food Wars)
 
-## Zutatenliste {-}
+## Zutatenliste 
 Zutat | Menge 
 ---|---:
 Apfel  | 1 / 2
@@ -340,7 +340,7 @@ Pfeffer (schwarz) |
 
 # Vegetarisches Ramen (Food Wars)
 
-## Zutatenliste {-}
+## Zutatenliste 
 Zutat | Menge 
 ---|---:
 Kombu Seetang | 
