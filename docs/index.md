@@ -3,7 +3,7 @@ title: "Willis Rezeptbuch"
 author:
 - William Truong
 - Lisa Gerste
-date: "2022-12-08"
+date: "2022-12-09"
 site: bookdown::bookdown_site
 documentclass: book
 bibliography:
@@ -15,6 +15,29 @@ description: |
 biblio-style: apalike
 csl: chicago-fullnote-bibliography.csl
 ---
+
+# Über 
+
+Hier beginnt das Rezeptbuch und der vorherige Abschnitt kann als Beispiel angesehen werden.
+
+In diesem Buch werden die verschiedenen Rezepte von Lisa und William gesammelt. Die Rezepte werden vorerst in zwei Kapitel eingeteilt: 
+
+1. Kochen
+2. Backen
+
+[link text](#ID)
+
+[Bung Niu]
+
+## To-Do Liste
+
+- HTML-Buch auf Deutsch einstellen
+- Einführungstext verfassen
+- GitHub Beschreibungstext verfassen
+
+
+
+
 
 <!-- # About -->
 
@@ -60,20 +83,3 @@ csl: chicago-fullnote-bibliography.csl
 <!-- ), 'packages.bib') -->
 <!-- ``` -->
 
-
-
-# Über 
-
-Hier beginnt das Rezeptbuch und der vorherige Abschnitt kann als Beispiel angesehen werden.
-
-In diesem Buch werden die verschiedenen Rezepte von Lisa und William gesammelt. Die Rezepte werden vorerst in zwei Kapitel eingeteilt: 
-
-1. Kochen
-2. Backen
-
-
-## To-Do Liste
-
-- HTML-Buch auf Deutsch einstellen
-- Einführungstext verfassen
-- GitHub Beschreibungstext verfassen
