@@ -1,4 +1,4 @@
-name: Deploy Bookdown Site to GitHub Pages using Docker
+name: Deploy Bookdown Site to GitHub Pages (with Bookdown cache)
 
 on:
   push:
@@ -22,41 +22,55 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout repository
+      # Step 1: Checkout repository f
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Step 2: Pull Bookdown Docker Image
-      - name: Pull Bookdown Docker Image
-        run: |
-          docker pull dockerscripts/bookdown:latest
+      # Step 2: Cache R libraries (including Bookdown)
+      - name: Cache R libraries
+        uses: actions/cache@v3
+        with:
+          path: ~/R/x86_64-pc-linux-gnu-library/4.3
+          key: ${{ runner.os }}-r-libraries-${{ hashFiles('**/*.Rmd') }}
+          restore-keys: |
+            ${{ runner.os }}-r-libraries-
 
-      # Step 3: Install or upgrade Pandoc to version 2.x (for anchor_sections)
+      # Step 3: Set up R
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+
+      # Step 4: Install Bookdown and dependencies (only installs if cache is not found)
+      - name: Install dependencies (Bookdown and others)
+        run: |
+          Rscript -e 'if (!requireNamespace("bookdown", quietly = TRUE)) install.packages("bookdown")'
+
+      # Step 5: Install and Cache Pandoc (you can cache this separately if needed)
       - name: Install Pandoc
         run: |
-          docker run --rm dockerscripts/bookdown:latest bash -c "apt-get update && apt-get install -y pandoc"
+          sudo apt-get update
+          sudo apt-get install -y pandoc
 
-      # Step 4: Run Bookdown build inside the Docker container
-      - name: Build Bookdown site with Docker
+      # Step 6: Build Bookdown site
+      - name: Build Bookdown site
         run: |
-          docker run --rm -v $(pwd):/usr/src/app -w /usr/src/app dockerscripts/bookdown:latest Rscript -e 'bookdown::render_book("index.Rmd", output_dir = "docs")'
+          Rscript -e 'bookdown::render_book("index.Rmd", output_dir = "docs")'
 
-      # Step 5: List files in docs directory for debugging
+      # Step 7: List files in docs directory for debugging
       - name: List files in docs directory (for debugging)
         run: |
           ls -la docs
 
-      # Step 6: Setup Pages
+      # Step 8: Setup Pages
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      # Step 7: Upload the docs folder to GitHub Pages
+      # Step 9: Upload the docs folder to GitHub Pages
       - name: Upload artifact to GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs
 
-      # Step 8: Deploy to GitHub Pages
+      # Step 10: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
