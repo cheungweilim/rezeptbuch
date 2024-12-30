@@ -31,7 +31,7 @@ jobs:
         run: |
           docker pull dockerscripts/bookdown:latest
 
-      # Step 3: Install or upgrade Pandoc
+      # Step 3: Install or upgrade Pandoc to version 2.x (for anchor_sections)
       - name: Install Pandoc
         run: |
           docker run --rm dockerscripts/bookdown:latest bash -c "apt-get update && apt-get install -y pandoc"
@@ -46,7 +46,7 @@ jobs:
         run: |
           ls -la docs
 
-      # Step 6: Setup GitHub Pages
+      # Step 6: Setup Pages
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
