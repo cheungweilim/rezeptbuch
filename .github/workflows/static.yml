@@ -55,4 +55,13 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      # Step 8: Upload the 'docs' d
+      # Step 8: Upload the 'docs' directory to GitHub Pages
+      - name: Upload artifact to GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs  # The 'docs' folder contains the generated HTML files
+
+      # Step 9: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
