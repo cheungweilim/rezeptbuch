@@ -1,9 +1,9 @@
-name: Deploy Bookdown Site to GitHub Pages (docs folder)
+name: Deploy Bookdown Site to GitHub Pages (with Bookdown cache)
 
 on:
   push:
     branches:
-      - main  # Trigger the workflow when changes are pushed to the 'main' branch
+      - main  # Trigger on commits to the 'main' branch
 
 permissions:
   contents: read
@@ -22,46 +22,55 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout the repository
+      # Step 1: Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Step 2: Install Pandoc
-      - name: Install Pandoc
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y pandoc
+      # Step 2: Cache R libraries (including Bookdown)
+      - name: Cache R libraries
+        uses: actions/cache@v3
+        with:
+          path: ~/R/x86_64-pc-linux-gnu-library/4.3
+          key: ${{ runner.os }}-r-libraries-${{ hashFiles('**/*.Rmd') }}
+          restore-keys: |
+            ${{ runner.os }}-r-libraries-
 
       # Step 3: Set up R
       - name: Set up R
         uses: r-lib/actions/setup-r@v2
 
-      # Step 4: Install dependencies
-      - name: Install dependencies
+      # Step 4: Install Bookdown and dependencies (only installs if cache is not found)
+      - name: Install dependencies (Bookdown and others)
         run: |
-          Rscript -e 'install.packages("bookdown")'
+          Rscript -e 'if (!requireNamespace("bookdown", quietly = TRUE)) install.packages("bookdown")'
 
-      # Step 5: Build the Bookdown site with output to 'docs' folder
+      # Step 5: Install and Cache Pandoc (you can cache this separately if needed)
+      - name: Install Pandoc
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+
+      # Step 6: Build Bookdown site
       - name: Build Bookdown site
         run: |
           Rscript -e 'bookdown::render_book("index.Rmd", output_dir = "docs")'
 
-      # Step 6: List files in the 'docs' directory for debugging
+      # Step 7: List files in docs directory for debugging
       - name: List files in docs directory (for debugging)
         run: |
-          ls -la docs  # Verify that the docs folder has been created and populated
+          ls -la docs
 
-      # Step 7: Setup GitHub Pages deployment
+      # Step 8: Setup Pages
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      # Step 8: Upload the 'docs' directory to GitHub Pages
+      # Step 9: Upload the docs folder to GitHub Pages
       - name: Upload artifact to GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs  # The 'docs' folder contains the generated HTML files
+          path: docs
 
-      # Step 9: Deploy to GitHub Pages
+      # Step 10: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4

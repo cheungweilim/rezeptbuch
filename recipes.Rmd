@@ -8,7 +8,7 @@ library(htmltools)
 ingredients <- data.frame(
   id = 1:5,
   Ingredient = c("Spaghetti", "Pancetta", "Eggs", "Pecorino Cheese", "Parmesan Cheese"),
-  Quantity = c(150, 50, 1, 25, 25), # Base quantity for 1 serving
+  Quantity = c(300, 50, 1, 25, 25), # Base quantity for 1 serving
   Unit = c("g", "g", "", "g", "g")
 )
 
