@@ -3,7 +3,7 @@ name: Deploy Bookdown Site to GitHub Pages
 on:
   push:
     branches:
-      - main  # or the branch where your content is
+      - gh-pages  # or the branch where your content is
 
 permissions:
   contents: read
