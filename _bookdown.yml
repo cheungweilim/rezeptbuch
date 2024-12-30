@@ -1,8 +1,6 @@
-book_filename: "Willis Rezeptbuch"
-new_session: true
-before_chapter_script: _common.R
-delete_merged_file: true
-language:
-  ui:
-    chapter_name: "Chapter "
-output_dir: "docs"
+book_filename: "recipe-book"
+output_dir: "_book"
+new_session: yes
+html_document:
+  includes:
+    in_header: header.html

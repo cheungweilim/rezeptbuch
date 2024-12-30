@@ -1,0 +1,22 @@
+<script>
+function scaleIngredients() {
+    // Get the number of servings from the input box
+    const servings = document.getElementById("servings").value;
+    
+    // Parse the base quantities from the hidden JSON div
+    const baseQuantities = JSON.parse(document.getElementById("baseQuantities").textContent);
+    
+    // Update each ingredient quantity based on the number of servings
+    baseQuantities.forEach(function(item) {
+        // Scale the quantity and round to the nearest whole number
+        const scaledQuantity = Math.round(item.Quantity * servings);
+        
+        // Update the displayed quantity in the table
+        document.getElementById(`quantity-${item.id}`).textContent = scaledQuantity;
+    });
+}
+</script>
+
+<script>
+console.log("Header script loaded successfully.");
+</script>

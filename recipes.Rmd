@@ -1,0 +1,47 @@
+# Recipe: Spaghetti Carbonara
+
+```{r echo=FALSE, results='asis'}
+library(jsonlite)
+library(htmltools)
+
+# Define the ingredients and base quantities for 1 serving
+ingredients <- data.frame(
+  id = 1:5,
+  Ingredient = c("Spaghetti", "Pancetta", "Eggs", "Pecorino Cheese", "Parmesan Cheese"),
+  Quantity = c(100, 50, 1, 25, 25), # Base quantity for 1 serving
+  Unit = c("g", "g", "", "g", "g")
+)
+
+# Convert the ingredient data to JSON for use in JavaScript
+json <- toJSON(ingredients[, c("id", "Quantity")], auto_unbox = TRUE)
+
+# Create the input box and ingredient table
+html_content <- tagList(
+  tags$div(
+    tags$label("Number of servings:", `for` = "servings"),
+    tags$input(id = "servings", type = "number", value = "1", min = "1", oninput = "scaleIngredients()"),
+    tags$div(id = "baseQuantities", style = "display:none;", json)
+  ),
+  tags$table(
+    tags$thead(
+      tags$tr(
+        tags$th("Ingredient"),
+        tags$th("Quantity"),
+        tags$th("Unit")
+      )
+    ),
+    tags$tbody(
+      lapply(seq_len(nrow(ingredients)), function(i) {
+        tags$tr(
+          tags$td(ingredients$Ingredient[i]),
+          tags$td(id = sprintf("quantity-%d", ingredients$id[i]), ingredients$Quantity[i]),
+          tags$td(ingredients$Unit[i])
+        )
+      })
+    )
+  )
+)
+
+# Render the HTML
+htmltools::browsable(html_content)
+```
