@@ -1,9 +1,9 @@
-name: Deploy Bookdown Site to GitHub Pages
+name: Deploy Bookdown Site to GitHub Pages (docs folder)
 
 on:
   push:
     branches:
-      - gh-pages  # or the branch where your content is
+      - main  # Trigger the workflow when changes are pushed to the 'main' branch
 
 permissions:
   contents: read
@@ -22,40 +22,40 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Checkout the repository
+      # Step 1: Checkout the repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Set up R
+      # Step 2: Set up R
       - name: Set up R
         uses: r-lib/actions/setup-r@v2
 
-      # Install dependencies
+      # Step 3: Install dependencies
       - name: Install dependencies
         run: |
           Rscript -e 'install.packages("bookdown")'
 
-      # Build the Bookdown site
+      # Step 4: Build the Bookdown site with output to 'docs' folder
       - name: Build Bookdown site
         run: |
-          Rscript -e 'bookdown::render_book("index.Rmd")'
+          Rscript -e 'bookdown::render_book("index.Rmd", output_dir = "docs")'
 
-      # List files in the _book directory for debugging
-      - name: List files in _book directory (for debugging)
+      # Step 5: List files in the 'docs' directory for debugging
+      - name: List files in docs directory (for debugging)
         run: |
-          ls -la _book  # Verify that the _book folder has been created and populated
+          ls -la docs  # Verify that the docs folder has been created and populated
 
-      # Setup GitHub Pages deployment
+      # Step 6: Setup GitHub Pages deployment
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      # Upload the _book directory to GitHub Pages
+      # Step 7: Upload the 'docs' directory to GitHub Pages
       - name: Upload artifact to GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: _book  # This is the folder that contains the generated HTML files
+          path: docs  # The 'docs' folder contains the generated HTML files
 
-      # Deploy to GitHub Pages
+      # Step 8: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
