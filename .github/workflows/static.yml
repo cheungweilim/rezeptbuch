@@ -26,32 +26,37 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Step 2: Pull Docker image with Bookdown installed
+      # Step 2: Pull Bookdown Docker Image
       - name: Pull Bookdown Docker Image
         run: |
           docker pull dockerscripts/bookdown:latest
 
-      # Step 3: Run Bookdown build inside the Docker container
+      # Step 3: Install or upgrade Pandoc
+      - name: Install Pandoc
+        run: |
+          docker run --rm dockerscripts/bookdown:latest bash -c "apt-get update && apt-get install -y pandoc"
+
+      # Step 4: Run Bookdown build inside the Docker container
       - name: Build Bookdown site with Docker
         run: |
           docker run --rm -v $(pwd):/usr/src/app -w /usr/src/app dockerscripts/bookdown:latest Rscript -e 'bookdown::render_book("index.Rmd", output_dir = "docs")'
 
-      # Step 4: List files in docs directory for debugging
+      # Step 5: List files in docs directory for debugging
       - name: List files in docs directory (for debugging)
         run: |
           ls -la docs
 
-      # Step 5: Setup GitHub Pages
+      # Step 6: Setup GitHub Pages
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      # Step 6: Upload the docs folder to GitHub Pages
+      # Step 7: Upload the docs folder to GitHub Pages
       - name: Upload artifact to GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs
 
-      # Step 7: Deploy to GitHub Pages
+      # Step 8: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
