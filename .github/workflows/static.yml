@@ -1,43 +1,61 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Deploy Bookdown Site to GitHub Pages (docs folder)
 
 on:
-  # Runs on pushes targeting the default branch
   push:
-    branches: ["main"]
+    branches:
+      - main  # Trigger the workflow when changes are pushed to the 'main' branch
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job since we're just deploying
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      # Step 1: Checkout the repository
+      - name: Checkout repository
         uses: actions/checkout@v4
+
+      # Step 2: Set up R
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
+
+      # Step 3: Install dependencies
+      - name: Install dependencies
+        run: |
+          Rscript -e 'install.packages("bookdown")'
+
+      # Step 4: Build the Bookdown site with output to 'docs' folder
+      - name: Build Bookdown site
+        run: |
+          Rscript -e 'bookdown::render_book("index.Rmd", output_dir = "docs")'
+
+      # Step 5: List files in the 'docs' directory for debugging
+      - name: List files in docs directory (for debugging)
+        run: |
+          ls -la docs  # Verify that the docs folder has been created and populated
+
+      # Step 6: Setup GitHub Pages deployment
       - name: Setup Pages
         uses: actions/configure-pages@v5
-      - name: Upload artifact
+
+      # Step 7: Upload the 'docs' directory to GitHub Pages
+      - name: Upload artifact to GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: '.'
+          path: docs  # The 'docs' folder contains the generated HTML files
+
+      # Step 8: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
