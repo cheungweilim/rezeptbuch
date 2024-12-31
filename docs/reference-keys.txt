@@ -1,2 +1,4 @@
 welcome
-recipe-spaghetti-carbonara
+cooking-recipes
+spaghetti-carbonara
+ingredients

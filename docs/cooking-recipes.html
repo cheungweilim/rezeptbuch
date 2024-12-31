@@ -4,18 +4,18 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Recipe Book</title>
-  <meta name="description" content="Recipe Book" />
+  <title>2 Cooking recipes | Recipe Book</title>
+  <meta name="description" content="2 Cooking recipes | Recipe Book" />
   <meta name="generator" content="bookdown 0.41 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Recipe Book" />
+  <meta property="og:title" content="2 Cooking recipes | Recipe Book" />
   <meta property="og:type" content="book" />
   
   
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Recipe Book" />
+  <meta name="twitter:title" content="2 Cooking recipes | Recipe Book" />
   
   
   
@@ -28,8 +28,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
+<link rel="prev" href="index.html"/>
 
-<link rel="next" href="cooking-recipes.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -72,13 +72,6 @@ function scaleIngredients() {
 <script>
 console.log("Header script loaded successfully.");
 </script>
-
-<style>
-  /* Hide the generic share button */
-  .book-share-buttons {
-    display: none;
-  }
-</style>
 
 
 
@@ -124,21 +117,64 @@ console.log("Header script loaded successfully.");
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="header">
-<h1 class="title">Recipe Book</h1>
+<div id="cooking-recipes" class="section level1 hasAnchor" number="2">
+<h1><span class="header-section-number">2</span> Cooking recipes<a href="cooking-recipes.html#cooking-recipes" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="spaghetti-carbonara" class="section level2 hasAnchor" number="2.1">
+<h2><span class="header-section-number">2.1</span> Spaghetti Carbonara<a href="cooking-recipes.html#spaghetti-carbonara" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="ingredients" class="section level3 hasAnchor" number="2.1.1">
+<h3><span class="header-section-number">2.1.1</span> Ingredients<a href="cooking-recipes.html#ingredients" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div>
+<label for="servings">Number of servings:</label>
+<input id="servings" type="number" value="1" min="1" oninput="scaleIngredients()"/>
+<div id="baseQuantities" style="display:none;">[{"id":1,"Quantity":100},{"id":2,"Quantity":50},{"id":3,"Quantity":1},{"id":4,"Quantity":25},{"id":5,"Quantity":25}]</div>
 </div>
-<div id="welcome" class="section level1 hasAnchor" number="1">
-<h1><span class="header-section-number">1</span> Welcome<a href="index.html#welcome" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<p>Welcome to the Recipe Book! Use the menu on the left to explore the recipes. Happy cooking!</p>
+<table>
+<thead>
+<tr>
+<th>Ingredient</th>
+<th>Quantity</th>
+<th>Unit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Spaghetti</td>
+<td id="quantity-1">100</td>
+<td>g</td>
+</tr>
+<tr>
+<td>Pancetta</td>
+<td id="quantity-2">50</td>
+<td>g</td>
+</tr>
+<tr>
+<td>Eggs</td>
+<td id="quantity-3">1</td>
+<td></td>
+</tr>
+<tr>
+<td>Pecorino Cheese</td>
+<td id="quantity-4">25</td>
+<td>g</td>
+</tr>
+<tr>
+<td>Parmesan Cheese</td>
+<td id="quantity-5">25</td>
+<td>g</td>
+</tr>
+</tbody>
+</table>
 
+</div>
+</div>
 </div>
             </section>
 
           </div>
         </div>
       </div>
+<a href="index.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
 
-<a href="cooking-recipes.html" class="navigation navigation-next navigation-unique" aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -152,17 +188,7 @@ console.log("Header script loaded successfully.");
 <script>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
-"sharing": {
-"github": true,
-"facebook": false,
-"twitter": false,
-"linkedin": false,
-"weibo": false,
-"instapaper": false,
-"vk": false,
-"whatsapp": false,
-"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
-},
+"sharing": false,
 "fontsettings": {
 "theme": "white",
 "family": "sans",

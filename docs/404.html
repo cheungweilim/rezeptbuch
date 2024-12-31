@@ -73,6 +73,13 @@ function scaleIngredients() {
 console.log("Header script loaded successfully.");
 </script>
 
+<style>
+  /* Hide the generic share button */
+  .book-share-buttons {
+    display: none;
+  }
+</style>
+
 
 
 <style type="text/css">
@@ -93,7 +100,13 @@ console.log("Header script loaded successfully.");
 
 <ul class="summary">
 <li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Welcome</a></li>
-<li class="chapter" data-level="2" data-path="recipe-spaghetti-carbonara.html"><a href="recipe-spaghetti-carbonara.html"><i class="fa fa-check"></i><b>2</b> Recipe: Spaghetti Carbonara</a></li>
+<li class="chapter" data-level="2" data-path="cooking-recipes.html"><a href="cooking-recipes.html"><i class="fa fa-check"></i><b>2</b> Cooking recipes</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="cooking-recipes.html"><a href="cooking-recipes.html#spaghetti-carbonara"><i class="fa fa-check"></i><b>2.1</b> Spaghetti Carbonara</a>
+<ul>
+<li class="chapter" data-level="2.1.1" data-path="cooking-recipes.html"><a href="cooking-recipes.html#ingredients"><i class="fa fa-check"></i><b>2.1.1</b> Ingredients</a></li>
+</ul></li>
+</ul></li>
 </ul>
 
       </nav>
@@ -138,9 +151,9 @@ the table of contents to find the page you are looking for.</p>
 gitbook.require(["gitbook"], function(gitbook) {
 gitbook.start({
 "sharing": {
-"github": false,
-"facebook": true,
-"twitter": true,
+"github": true,
+"facebook": false,
+"twitter": false,
 "linkedin": false,
 "weibo": false,
 "instapaper": false,

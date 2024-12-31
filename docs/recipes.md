@@ -1,5 +1,7 @@
-# Recipe: Spaghetti Carbonara
+# Cooking recipes
+## Spaghetti Carbonara
 
+### Ingredients
 
 ```{=html}
 <div>
