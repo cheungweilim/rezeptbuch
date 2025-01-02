@@ -42,7 +42,7 @@ jobs:
       # Step 4: Install Bookdown and dependencies (only installs if cache is not found)
       - name: Install dependencies (Bookdown and others)
         run: |
-          Rscript -e 'if (!requireNamespace("bookdown", quietly = TRUE)) install.packages("bookdown","readxl")'
+          Rscript -e 'if (!requireNamespace("bookdown", quietly = TRUE)) install.packages(c("bookdown","readxl"))'
 
       # Step 5: Install and Cache Pandoc (you can cache this separately if needed)
       - name: Install Pandoc
