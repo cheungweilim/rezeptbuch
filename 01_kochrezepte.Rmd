@@ -1,0 +1,51 @@
+```{r setup, include=FALSE}
+# Load the function from the helpers.R script
+source("scripts/helper.R")
+```
+
+# Ham Dan 咸蛋 (Zutatenmenge nicht getestet)
+
+Das Gericht kommt aus Vietnam und wurde vor allem von armen Personen gekocht, die sich kaum etwas leisten konnten. Daher wird das salzige Gericht ursprünglich nur mit Reis gemischt und gegessen.
+
+## TO-DO Liste
+
+-   Bild von Gericht einfügen
+
+## Zutaten
+
+```{r echo=FALSE, results='asis'}
+ingredients <- read_excel("tbl/ham-dan.xlsx")
+generate_ingredient_table(ingredients)
+```
+
+## Zubereitung
+
+1. Die Eier hart kochen und die Schale entfernen.
+2. Die geschälten Eier in einer Schüssel fein hacken.
+3. Die gehackten Eier gründlich mixen, bis eine gleichmäßige Masse entsteht.
+4. Fischsoße und Sojasoße zum Abschmecken hinzufügen.
+5. Das fertige Gericht in der Regel mit weißem Reis servieren.
+
+# Bung Niu (Zutatenmenge nicht getestet)
+
+```{r echo=FALSE, out.width='100%'}
+knitr::include_graphics("img/BungNiu_480x360.jpg")
+```
+
+Reisnudelsuppe mit Schweinsknochen
+
+## TO-DO Liste
+
+-   Bild von Gericht einfügen
+-   ~~Zutaten bestimmen~~
+-   Zutatenmenge für 4 Portionen bestimmen
+-   Zubereitungstext formulieren
+
+## Zutaten
+
+```{r echo=FALSE, results='asis'}
+ingredients <- read_excel("tbl/bung-niu.xlsx")
+generate_ingredient_table(ingredients)
+```
+
+## Zubereitung

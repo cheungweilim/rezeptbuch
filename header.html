@@ -8,22 +8,33 @@ function scaleIngredients() {
     
     // Update each ingredient quantity based on the number of servings
     baseQuantities.forEach(function(item) {
-        // Scale the quantity and round to the nearest whole number
-        const scaledQuantity = Math.round(item.Quantity * servings);
-        
+        // Scale the quantity
+        const scaledQuantity = item.Quantity * servings;
+
+        // Adjust decimal places and hide trailing zeros
+        let formattedQuantity;
+        if (scaledQuantity < 1) {
+            formattedQuantity = parseFloat(scaledQuantity.toFixed(2)); // 2 decimal places, remove trailing zeros
+        } else if (scaledQuantity < 10) {
+            formattedQuantity = parseFloat(scaledQuantity.toFixed(1)); // 1 decimal place, remove trailing zeros
+        } else {
+            formattedQuantity = Math.round(scaledQuantity); // No decimal places
+        }
+
         // Update the displayed quantity in the table
-        document.getElementById(`quantity-${item.id}`).textContent = scaledQuantity;
+        document.getElementById(`quantity-${item.id}`).textContent = formattedQuantity;
     });
 }
 </script>
+
 
 <script>
 console.log("Header script loaded successfully.");
 </script>
 
-<style>
-  /* Hide the generic share button */
-  .book-share-buttons {
-    display: none;
-  }
-</style>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  scaleIngredients(); // Trigger the function to adjust quantities on page load
+});
+</script>
+

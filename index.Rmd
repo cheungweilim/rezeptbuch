@@ -6,6 +6,7 @@ output:
     includes:
       in_header: header.html
     config:
+      toc_depth: 2
       sharing:
         github: yes        # Enable sharing to GitHub
         facebook: no       # Disable Facebook sharing
@@ -15,6 +16,6 @@ output:
 repository: https://github.com/cheungweilim/rezeptbuch  # Replace with your GitHub repo URL
 ---
 
-# Welcome
+# Welcome {-}
 
 Welcome to the Recipe Book! Use the menu on the left to explore the recipes. Happy cooking!

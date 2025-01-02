@@ -1,0 +1,21 @@
+```{r setup, include=FALSE}
+# Load the function from the helpers.R script
+source("scripts/helper.R")
+```
+
+# Spaghetti Carbonara (Testrezept)
+
+## Zutaten
+
+```{r echo=FALSE, results='asis'}
+# Define the ingredients and base quantities for 1 serving
+ingredients <- data.frame(
+  id         = 1:5,
+  Ingredient = c("Spaghetti", "Pancetta", "Eggs", "Pecorino Cheese", "Parmesan Cheese"),
+  Quantity   = c(100, 50, 1, 25, 25), # Base quantity for 1 serving
+  Unit       = c("g", "g", "", "g", "g"),
+  Comment    = c("", "", "", "", "")
+)
+
+generate_ingredient_table(ingredients)
+```
