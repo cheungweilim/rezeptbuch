@@ -13,7 +13,9 @@ function scaleIngredients() {
 
         // Adjust decimal places and hide trailing zeros
         let formattedQuantity;
-        if (scaledQuantity < 1) {
+        if (isNaN(scaledQuantity) || scaledQuantity === null) {
+            formattedQuantity = ""; // Hide invalid values
+        } else if (scaledQuantity < 1) {
             formattedQuantity = parseFloat(scaledQuantity.toFixed(2)); // 2 decimal places, remove trailing zeros
         } else if (scaledQuantity < 10) {
             formattedQuantity = parseFloat(scaledQuantity.toFixed(1)); // 1 decimal place, remove trailing zeros
@@ -23,13 +25,19 @@ function scaleIngredients() {
 
         // Update the displayed quantity in the table
         document.getElementById(`quantity-${item.id}`).textContent = formattedQuantity;
+
+        // Hide 'NA' in the comments column
+        const commentCell = document.getElementById(`comment-${item.id}`);
+        if (commentCell && commentCell.textContent.trim() === "NA") {
+            commentCell.textContent = ""; // Hide NA values
+        }
     });
 }
 </script>
 
 
 <script>
-console.log("Header script loaded successfully.");
+  console.log("Header script loaded successfully.");
 </script>
 
 <script>

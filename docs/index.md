@@ -19,3 +19,8 @@ repository: https://github.com/cheungweilim/rezeptbuch  # Replace with your GitH
 # Welcome {-}
 
 Welcome to the Recipe Book! Use the menu on the left to explore the recipes. Happy cooking!
+
+## Lizenz {-}
+
+Dieses Werk ist lizenziert unter der [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).  
+Sie dürfen dieses Werk teilen, anpassen und darauf aufbauen, sofern die entsprechende Anerkennung erfolgt.

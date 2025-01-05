@@ -15,37 +15,124 @@ Das Gericht kommt aus Vietnam und wurde vor allem von armen Personen gekocht, di
 
 ```{r echo=FALSE, results='asis'}
 ingredients <- read_excel("tbl/ham-dan.xlsx")
+ingredients[is.na(ingredients)] <- ""
 generate_ingredient_table(ingredients)
 ```
 
 ## Zubereitung
 
-1. Die Eier hart kochen und die Schale entfernen.
-2. Die geschälten Eier in einer Schüssel fein hacken.
-3. Die gehackten Eier gründlich mixen, bis eine gleichmäßige Masse entsteht.
-4. Fischsoße und Sojasoße zum Abschmecken hinzufügen.
-5. Das fertige Gericht in der Regel mit weißem Reis servieren.
+1.  Die Eier hart kochen und die Schale entfernen.
+2.  Die geschälten Eier in einer Schüssel fein hacken.
+3.  Die gehackten Eier gründlich mixen, bis eine gleichmäßige Masse entsteht.
+4.  Fischsoße und Sojasoße zum Abschmecken hinzufügen.
+5.  Das fertige Gericht in der Regel mit weißem Reis servieren.
 
-# Bung Niu (Zutatenmenge nicht getestet)
+# Bun Rieu ohne Krabben (Zutatenmenge nicht getestet)
 
 ```{r echo=FALSE, out.width='100%'}
 knitr::include_graphics("img/BungNiu_480x360.jpg")
 ```
 
-Reisnudelsuppe mit Schweinsknochen
-
-## TO-DO Liste
-
--   Bild von Gericht einfügen
--   ~~Zutaten bestimmen~~
--   Zutatenmenge für 4 Portionen bestimmen
--   Zubereitungstext formulieren
+Vietnamnesische Reisnudelsuppe mit Schweinsknochen
 
 ## Zutaten
 
 ```{r echo=FALSE, results='asis'}
-ingredients <- read_excel("tbl/bung-niu.xlsx")
+ingredients <- read_excel("tbl/bun-rieu.xlsx", na = c("", "NA"))
+ingredients[is.na(ingredients)] <- ""
 generate_ingredient_table(ingredients)
 ```
 
 ## Zubereitung
+
+**Zubereitung für die vietnamesische Nudelsuppe Bun Rieu:**
+
+1.  **Vorbereitung der Basis:**
+
+    -   Zwiebeln fein hacken und Karotten in etwa 1 cm große Stücke schneiden.
+
+    -   Zwiebeln in einem großen Topf mit etwas Öl anschwitzen, bis sie glasig sind.
+
+    -   Tomatenmark und die Karotten hinzufügen, kurz anbraten, bis alles leicht aromatisch ist.
+
+2.  **Zubereitung der Brühe:**
+
+    -   Wasser in den Topf gießen.
+
+    -   Schweineknochen und geviertelte Tomaten hinzufügen.
+
+    -   Die Suppe auf mittlerer Hitze etwa 1 Stunde köcheln lassen, damit die Aromen sich entfalten können.
+
+3.  **Vorbereitung der Beilagen:**
+
+    -   Limetten achteln.
+
+    -   Sojasprossen gründlich waschen.
+
+    -   Frühlingszwiebeln fein hacken.
+
+    -   Eisbergsalat in etwa 10 cm lange Streifen schneiden.
+
+    -   Optional: Thai-Basilikumblätter von den Stängeln zupfen.
+
+4.  **Zubereitung der Reisnudeln:**
+
+    -   Die Reisnudeln in einem separaten Topf gemäß Packungsanleitung gar kochen.
+
+5.  **Finalisieren der Suppe:**
+
+    -   Kurz vor dem Anrichten die verquirlten Eier langsam in die köchelnde Suppe einrühren, sodass feine Fäden entstehen.
+
+    -   Mit Fischsoße abschmecken, um der Suppe ihre charakteristische Würze zu verleihen.
+
+6.  **Servieren:**
+
+    -   Die Reisnudeln in Schalen anrichten, die heiße Suppe darübergeben und mit den vorbereiteten Beilagen nach Belieben garnieren.
+
+# Chicken madras
+
+Indisches Hähnchen-Curry von bbcgoodfood.com (Elena Silcock)
+
+## TO-DO Liste
+
+-   Bild von Gericht einfügen
+
+## Zutaten
+
+```{r echo=FALSE, results='asis'}
+ingredients <- read_excel("tbl/chicken-madras.xlsx")
+ingredients[is.na(ingredients)] <- ""
+generate_ingredient_table(ingredients)
+```
+
+## Zubereitung
+
+1.  **Paste zubereiten:**
+
+    -   Die geviertelten Zwiebeln, die Knoblauchzehen, den Ingwer und die halbe Chili in einen Mixer geben und zu einer glatten Paste verarbeiten.
+
+2.  **Paste anbraten:**
+
+    -   Öl in einer großen Pfanne oder einem Topf erhitzen.
+
+    -   Die vorbereitete Paste darin bei mittlerer Hitze etwa 5 Minuten anbraten, bis sie weich ist und ein aromatischer Duft entsteht.
+
+    -   Sollte die Paste an der Pfanne kleben, etwas Wasser hinzufügen und weiter rühren.
+
+3.  **Gewürze hinzufügen:**
+
+    -   Kurkuma, Kreuzkümmel, Koriander und Chilipulver in die Pfanne geben.
+
+    -   Die Mischung gut umrühren und für 1--2 Minuten rösten, damit die Gewürze ihr Aroma entfalten.
+
+4.  **Hähnchen anbraten:**
+
+    -   Die in Stücke geschnittene Hähnchenbrust hinzufügen und gut mit der Gewürzpaste vermengen, sodass alle Stücke gleichmäßig bedeckt sind.
+
+    -   Die Hähnchenstücke anbraten, bis sie von allen Seiten weiß werden. Falls nötig, etwas Wasser hinzufügen, um ein Ankleben zu verhindern.
+
+5.  **Tomaten und Köcheln:**
+
+    -   Die gehackten Tomaten und eine Prise Salz in die Pfanne geben.
+
+    -   Alles gut umrühren, die Pfanne mit einem Deckel abdecken und das Gericht bei niedriger Hitze 25--30 Minuten köcheln lassen, bis das Hähnchen zart ist und die Soße leicht eingedickt ist.
