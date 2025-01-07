@@ -1,38 +1,38 @@
 <script>
-function scaleIngredients() {
-    // Get the number of servings from the input box
-    const servings = document.getElementById("servings").value;
-    
-    // Parse the base quantities from the hidden JSON div
-    const baseQuantities = JSON.parse(document.getElementById("baseQuantities").textContent);
-    
-    // Update each ingredient quantity based on the number of servings
-    baseQuantities.forEach(function(item) {
-        // Scale the quantity
-        const scaledQuantity = item.Quantity * servings;
-
-        // Adjust decimal places and hide trailing zeros
-        let formattedQuantity;
-        if (isNaN(scaledQuantity) || scaledQuantity === null) {
-            formattedQuantity = ""; // Hide invalid values
-        } else if (scaledQuantity < 1) {
-            formattedQuantity = parseFloat(scaledQuantity.toFixed(2)); // 2 decimal places, remove trailing zeros
-        } else if (scaledQuantity < 10) {
-            formattedQuantity = parseFloat(scaledQuantity.toFixed(1)); // 1 decimal place, remove trailing zeros
-        } else {
-            formattedQuantity = Math.round(scaledQuantity); // No decimal places
-        }
-
-        // Update the displayed quantity in the table
-        document.getElementById(`quantity-${item.id}`).textContent = formattedQuantity;
-
-        // Hide 'NA' in the comments column
-        const commentCell = document.getElementById(`comment-${item.id}`);
-        if (commentCell && commentCell.textContent.trim() === "NA") {
-            commentCell.textContent = ""; // Hide NA values
-        }
-    });
-}
+  function scaleIngredients() {
+      // Get the number of servings from the input box
+      const servings = document.getElementById("servings").value;
+      
+      // Parse the base quantities from the hidden JSON div (already set for 4 servings)
+      const baseQuantities = JSON.parse(document.getElementById("baseQuantities").textContent);
+  
+      // Update each ingredient quantity based on the number of servings
+      baseQuantities.forEach(function(item) {
+          // Scale the quantity
+          const scaledQuantity = (item.Quantity / 4) * servings; // Divide by 4 to normalize to 1 serving and scale
+  
+          // Adjust decimal places and hide trailing zeros
+          let formattedQuantity;
+          if (isNaN(scaledQuantity) || scaledQuantity === null) {
+              formattedQuantity = ""; // Hide invalid values
+          } else if (scaledQuantity < 1) {
+              formattedQuantity = parseFloat(scaledQuantity.toFixed(2)); // 2 decimal places, remove trailing zeros
+          } else if (scaledQuantity < 10) {
+              formattedQuantity = parseFloat(scaledQuantity.toFixed(1)); // 1 decimal place, remove trailing zeros
+          } else {
+              formattedQuantity = Math.round(scaledQuantity); // No decimal places
+          }
+  
+          // Update the displayed quantity in the table
+          document.getElementById(`quantity-${item.id}`).textContent = formattedQuantity;
+  
+          // Hide 'NA' in the comments column
+          const commentCell = document.getElementById(`comment-${item.id}`);
+          if (commentCell && commentCell.textContent.trim() === "NA") {
+              commentCell.textContent = ""; // Hide NA values
+          }
+      });
+  }
 </script>
 
 

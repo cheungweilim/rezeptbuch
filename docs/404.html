@@ -51,40 +51,40 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 <script>
-function scaleIngredients() {
-    // Get the number of servings from the input box
-    const servings = document.getElementById("servings").value;
-    
-    // Parse the base quantities from the hidden JSON div
-    const baseQuantities = JSON.parse(document.getElementById("baseQuantities").textContent);
-    
-    // Update each ingredient quantity based on the number of servings
-    baseQuantities.forEach(function(item) {
-        // Scale the quantity
-        const scaledQuantity = item.Quantity * servings;
-
-        // Adjust decimal places and hide trailing zeros
-        let formattedQuantity;
-        if (isNaN(scaledQuantity) || scaledQuantity === null) {
-            formattedQuantity = ""; // Hide invalid values
-        } else if (scaledQuantity < 1) {
-            formattedQuantity = parseFloat(scaledQuantity.toFixed(2)); // 2 decimal places, remove trailing zeros
-        } else if (scaledQuantity < 10) {
-            formattedQuantity = parseFloat(scaledQuantity.toFixed(1)); // 1 decimal place, remove trailing zeros
-        } else {
-            formattedQuantity = Math.round(scaledQuantity); // No decimal places
-        }
-
-        // Update the displayed quantity in the table
-        document.getElementById(`quantity-${item.id}`).textContent = formattedQuantity;
-
-        // Hide 'NA' in the comments column
-        const commentCell = document.getElementById(`comment-${item.id}`);
-        if (commentCell && commentCell.textContent.trim() === "NA") {
-            commentCell.textContent = ""; // Hide NA values
-        }
-    });
-}
+  function scaleIngredients() {
+      // Get the number of servings from the input box
+      const servings = document.getElementById("servings").value;
+      
+      // Parse the base quantities from the hidden JSON div (already set for 4 servings)
+      const baseQuantities = JSON.parse(document.getElementById("baseQuantities").textContent);
+  
+      // Update each ingredient quantity based on the number of servings
+      baseQuantities.forEach(function(item) {
+          // Scale the quantity
+          const scaledQuantity = (item.Quantity / 4) * servings; // Divide by 4 to normalize to 1 serving and scale
+  
+          // Adjust decimal places and hide trailing zeros
+          let formattedQuantity;
+          if (isNaN(scaledQuantity) || scaledQuantity === null) {
+              formattedQuantity = ""; // Hide invalid values
+          } else if (scaledQuantity < 1) {
+              formattedQuantity = parseFloat(scaledQuantity.toFixed(2)); // 2 decimal places, remove trailing zeros
+          } else if (scaledQuantity < 10) {
+              formattedQuantity = parseFloat(scaledQuantity.toFixed(1)); // 1 decimal place, remove trailing zeros
+          } else {
+              formattedQuantity = Math.round(scaledQuantity); // No decimal places
+          }
+  
+          // Update the displayed quantity in the table
+          document.getElementById(`quantity-${item.id}`).textContent = formattedQuantity;
+  
+          // Hide 'NA' in the comments column
+          const commentCell = document.getElementById(`comment-${item.id}`);
+          if (commentCell && commentCell.textContent.trim() === "NA") {
+              commentCell.textContent = ""; // Hide NA values
+          }
+      });
+  }
 </script>
 
 
@@ -139,9 +139,15 @@ document.addEventListener("DOMContentLoaded", function() {
 <li class="chapter" data-level="3.2" data-path="chicken-madras.html"><a href="chicken-madras.html#zutaten-2"><i class="fa fa-check"></i><b>3.2</b> Zutaten</a></li>
 <li class="chapter" data-level="3.3" data-path="chicken-madras.html"><a href="chicken-madras.html#zubereitung-2"><i class="fa fa-check"></i><b>3.3</b> Zubereitung</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="spaghetti-carbonara-testrezept.html"><a href="spaghetti-carbonara-testrezept.html"><i class="fa fa-check"></i><b>4</b> Spaghetti Carbonara (Testrezept)</a>
+<li class="chapter" data-level="4" data-path="chinesische-kartoffelsuppe.html"><a href="chinesische-kartoffelsuppe.html"><i class="fa fa-check"></i><b>4</b> Chinesische Kartoffelsuppe</a>
 <ul>
-<li class="chapter" data-level="4.1" data-path="spaghetti-carbonara-testrezept.html"><a href="spaghetti-carbonara-testrezept.html#zutaten-3"><i class="fa fa-check"></i><b>4.1</b> Zutaten</a></li>
+<li class="chapter" data-level="4.1" data-path="chinesische-kartoffelsuppe.html"><a href="chinesische-kartoffelsuppe.html#to-do-liste-2"><i class="fa fa-check"></i><b>4.1</b> TO-DO Liste</a></li>
+<li class="chapter" data-level="4.2" data-path="chinesische-kartoffelsuppe.html"><a href="chinesische-kartoffelsuppe.html#zutaten-3"><i class="fa fa-check"></i><b>4.2</b> Zutaten</a></li>
+<li class="chapter" data-level="4.3" data-path="chinesische-kartoffelsuppe.html"><a href="chinesische-kartoffelsuppe.html#zubereitung-3"><i class="fa fa-check"></i><b>4.3</b> Zubereitung</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="spaghetti-carbonara-testrezept.html"><a href="spaghetti-carbonara-testrezept.html"><i class="fa fa-check"></i><b>5</b> Spaghetti Carbonara (Testrezept)</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="spaghetti-carbonara-testrezept.html"><a href="spaghetti-carbonara-testrezept.html#zutaten-4"><i class="fa fa-check"></i><b>5.1</b> Zutaten</a></li>
 </ul></li>
 </ul>
 

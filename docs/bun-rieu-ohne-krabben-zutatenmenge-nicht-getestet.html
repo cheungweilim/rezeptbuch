@@ -51,40 +51,40 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 <script>
-function scaleIngredients() {
-    // Get the number of servings from the input box
-    const servings = document.getElementById("servings").value;
-    
-    // Parse the base quantities from the hidden JSON div
-    const baseQuantities = JSON.parse(document.getElementById("baseQuantities").textContent);
-    
-    // Update each ingredient quantity based on the number of servings
-    baseQuantities.forEach(function(item) {
-        // Scale the quantity
-        const scaledQuantity = item.Quantity * servings;
-
-        // Adjust decimal places and hide trailing zeros
-        let formattedQuantity;
-        if (isNaN(scaledQuantity) || scaledQuantity === null) {
-            formattedQuantity = ""; // Hide invalid values
-        } else if (scaledQuantity < 1) {
-            formattedQuantity = parseFloat(scaledQuantity.toFixed(2)); // 2 decimal places, remove trailing zeros
-        } else if (scaledQuantity < 10) {
-            formattedQuantity = parseFloat(scaledQuantity.toFixed(1)); // 1 decimal place, remove trailing zeros
-        } else {
-            formattedQuantity = Math.round(scaledQuantity); // No decimal places
-        }
-
-        // Update the displayed quantity in the table
-        document.getElementById(`quantity-${item.id}`).textContent = formattedQuantity;
-
-        // Hide 'NA' in the comments column
-        const commentCell = document.getElementById(`comment-${item.id}`);
-        if (commentCell && commentCell.textContent.trim() === "NA") {
-            commentCell.textContent = ""; // Hide NA values
-        }
-    });
-}
+  function scaleIngredients() {
+      // Get the number of servings from the input box
+      const servings = document.getElementById("servings").value;
+      
+      // Parse the base quantities from the hidden JSON div (already set for 4 servings)
+      const baseQuantities = JSON.parse(document.getElementById("baseQuantities").textContent);
+  
+      // Update each ingredient quantity based on the number of servings
+      baseQuantities.forEach(function(item) {
+          // Scale the quantity
+          const scaledQuantity = (item.Quantity / 4) * servings; // Divide by 4 to normalize to 1 serving and scale
+  
+          // Adjust decimal places and hide trailing zeros
+          let formattedQuantity;
+          if (isNaN(scaledQuantity) || scaledQuantity === null) {
+              formattedQuantity = ""; // Hide invalid values
+          } else if (scaledQuantity < 1) {
+              formattedQuantity = parseFloat(scaledQuantity.toFixed(2)); // 2 decimal places, remove trailing zeros
+          } else if (scaledQuantity < 10) {
+              formattedQuantity = parseFloat(scaledQuantity.toFixed(1)); // 1 decimal place, remove trailing zeros
+          } else {
+              formattedQuantity = Math.round(scaledQuantity); // No decimal places
+          }
+  
+          // Update the displayed quantity in the table
+          document.getElementById(`quantity-${item.id}`).textContent = formattedQuantity;
+  
+          // Hide 'NA' in the comments column
+          const commentCell = document.getElementById(`comment-${item.id}`);
+          if (commentCell && commentCell.textContent.trim() === "NA") {
+              commentCell.textContent = ""; // Hide NA values
+          }
+      });
+  }
 </script>
 
 
@@ -139,9 +139,15 @@ document.addEventListener("DOMContentLoaded", function() {
 <li class="chapter" data-level="3.2" data-path="chicken-madras.html"><a href="chicken-madras.html#zutaten-2"><i class="fa fa-check"></i><b>3.2</b> Zutaten</a></li>
 <li class="chapter" data-level="3.3" data-path="chicken-madras.html"><a href="chicken-madras.html#zubereitung-2"><i class="fa fa-check"></i><b>3.3</b> Zubereitung</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="spaghetti-carbonara-testrezept.html"><a href="spaghetti-carbonara-testrezept.html"><i class="fa fa-check"></i><b>4</b> Spaghetti Carbonara (Testrezept)</a>
+<li class="chapter" data-level="4" data-path="chinesische-kartoffelsuppe.html"><a href="chinesische-kartoffelsuppe.html"><i class="fa fa-check"></i><b>4</b> Chinesische Kartoffelsuppe</a>
 <ul>
-<li class="chapter" data-level="4.1" data-path="spaghetti-carbonara-testrezept.html"><a href="spaghetti-carbonara-testrezept.html#zutaten-3"><i class="fa fa-check"></i><b>4.1</b> Zutaten</a></li>
+<li class="chapter" data-level="4.1" data-path="chinesische-kartoffelsuppe.html"><a href="chinesische-kartoffelsuppe.html#to-do-liste-2"><i class="fa fa-check"></i><b>4.1</b> TO-DO Liste</a></li>
+<li class="chapter" data-level="4.2" data-path="chinesische-kartoffelsuppe.html"><a href="chinesische-kartoffelsuppe.html#zutaten-3"><i class="fa fa-check"></i><b>4.2</b> Zutaten</a></li>
+<li class="chapter" data-level="4.3" data-path="chinesische-kartoffelsuppe.html"><a href="chinesische-kartoffelsuppe.html#zubereitung-3"><i class="fa fa-check"></i><b>4.3</b> Zubereitung</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="spaghetti-carbonara-testrezept.html"><a href="spaghetti-carbonara-testrezept.html"><i class="fa fa-check"></i><b>5</b> Spaghetti Carbonara (Testrezept)</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="spaghetti-carbonara-testrezept.html"><a href="spaghetti-carbonara-testrezept.html#zutaten-4"><i class="fa fa-check"></i><b>5.1</b> Zutaten</a></li>
 </ul></li>
 </ul>
 
@@ -169,7 +175,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <div>
 <label for="servings">Anzahl der Portionen:</label>
 <input id="servings" type="number" value="4" min="1" oninput="scaleIngredients()"/>
-<div id="baseQuantities" style="display:none;">[{"id":1,"Quantity":100},{"id":2,"Quantity":25},{"id":3,"Quantity":160},{"id":4,"Quantity":100},{"id":5,"Quantity":2},{"id":6,"Quantity":4},{"id":7,"Quantity":1.5},{"id":8,"Quantity":1},{"id":9,"Quantity":2},{"id":10,"Quantity":100},{"id":11,"Quantity":0.25},{"id":12,"Quantity":50},{"id":13,"Quantity":0.5},{"id":14,"Quantity":0.25},{"id":15,"Quantity":20}]</div>
+<div id="baseQuantities" style="display:none;">[{"id":1,"Quantity":400},{"id":2,"Quantity":100},{"id":3,"Quantity":500},{"id":4,"Quantity":300},{"id":5,"Quantity":6},{"id":6,"Quantity":6},{"id":7,"Quantity":6},{"id":8,"Quantity":4},{"id":9,"Quantity":8},{"id":10,"Quantity":400},{"id":11,"Quantity":1},{"id":12,"Quantity":200},{"id":13,"Quantity":2},{"id":14,"Quantity":1},{"id":15,"Quantity":80}]</div>
 </div>
 <table>
 <thead>
@@ -183,91 +189,91 @@ document.addEventListener("DOMContentLoaded", function() {
 <tbody>
 <tr>
 <td>Schweinsknochen</td>
-<td id="quantity-1">100</td>
+<td id="quantity-1">400</td>
 <td>g</td>
 <td>Suppe</td>
 </tr>
 <tr>
 <td>Tomatenmark</td>
-<td id="quantity-2">25</td>
+<td id="quantity-2">100</td>
 <td>g</td>
 <td>Suppe</td>
 </tr>
 <tr>
 <td>Tomaten</td>
-<td id="quantity-3">160</td>
+<td id="quantity-3">500</td>
 <td>g</td>
 <td>Suppe</td>
 </tr>
 <tr>
 <td>Karotten</td>
-<td id="quantity-4">100</td>
+<td id="quantity-4">300</td>
 <td>g</td>
 <td>Suppe</td>
 </tr>
 <tr>
 <td>Zwiebeln</td>
-<td id="quantity-5">2</td>
+<td id="quantity-5">6</td>
 <td>Stück</td>
 <td>Suppe</td>
 </tr>
 <tr>
 <td>Eier (M)</td>
-<td id="quantity-6">4</td>
+<td id="quantity-6">6</td>
 <td>Stück</td>
 <td>Suppe</td>
 </tr>
 <tr>
 <td>Wasser</td>
-<td id="quantity-7">1.5</td>
+<td id="quantity-7">6</td>
 <td>l</td>
 <td>Suppe</td>
 </tr>
 <tr>
 <td>Öl</td>
-<td id="quantity-8">1</td>
+<td id="quantity-8">4</td>
 <td>Teelöffel</td>
 <td>Suppe</td>
 </tr>
 <tr>
 <td>Fischsoße</td>
-<td id="quantity-9">2</td>
+<td id="quantity-9">8</td>
 <td>Esslöffel</td>
 <td>Suppe</td>
 </tr>
 <tr>
 <td>Reisnudeln</td>
-<td id="quantity-10">100</td>
+<td id="quantity-10">400</td>
 <td>g</td>
 <td>Beilage</td>
 </tr>
 <tr>
 <td>Eisbergsalat</td>
-<td id="quantity-11">0.25</td>
+<td id="quantity-11">1</td>
 <td>Stück</td>
 <td>Beilage</td>
 </tr>
 <tr>
 <td>Sojasprossen</td>
-<td id="quantity-12">50</td>
+<td id="quantity-12">200</td>
 <td>g</td>
 <td>Beilage</td>
 </tr>
 <tr>
 <td>Frühlingszwiebeln</td>
-<td id="quantity-13">0.5</td>
+<td id="quantity-13">2</td>
 <td>Stück</td>
 <td>Beilage</td>
 </tr>
 <tr>
 <td>Limette</td>
-<td id="quantity-14">0.25</td>
+<td id="quantity-14">1</td>
 <td>Stück</td>
 <td>Beilage</td>
 </tr>
 <tr>
 <td>Thai-Basilikum</td>
-<td id="quantity-15">20</td>
+<td id="quantity-15">80</td>
 <td>g</td>
 <td>Beilage</td>
 </tr>
@@ -278,40 +284,50 @@ document.addEventListener("DOMContentLoaded", function() {
 <h2><span class="header-section-number">2.2</span> Zubereitung<a href="bun-rieu-ohne-krabben-zutatenmenge-nicht-getestet.html#zubereitung-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><strong>Zubereitung für die vietnamesische Nudelsuppe Bun Rieu:</strong></p>
 <ol style="list-style-type: decimal">
-<li><p><strong>Vorbereitung der Basis:</strong></p>
+<li><strong>Vorbereitung der Basis:</strong></li>
+</ol>
 <ul>
-<li><p>Zwiebeln fein hacken und Karotten in etwa 1 cm große Stücke schneiden.</p></li>
-<li><p>Zwiebeln in einem großen Topf mit etwas Öl anschwitzen, bis sie glasig sind.</p></li>
-<li><p>Tomatenmark und die Karotten hinzufügen, kurz anbraten, bis alles leicht aromatisch ist.</p></li>
-</ul></li>
-<li><p><strong>Zubereitung der Brühe:</strong></p>
+<li>Zwiebeln fein hacken und Karotten in etwa 1 cm große Stücke schneiden.</li>
+<li>Zwiebeln in einem großen Topf mit etwas Öl anschwitzen, bis sie glasig sind.</li>
+<li>Tomatenmark und die Karotten hinzufügen, kurz anbraten, bis alles leicht aromatisch ist.</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li><strong>Zubereitung der Brühe:</strong></li>
+</ol>
 <ul>
-<li><p>Wasser in den Topf gießen.</p></li>
-<li><p>Schweineknochen und geviertelte Tomaten hinzufügen.</p></li>
-<li><p>Die Suppe auf mittlerer Hitze etwa 1 Stunde köcheln lassen, damit die Aromen sich entfalten können.</p></li>
-</ul></li>
-<li><p><strong>Vorbereitung der Beilagen:</strong></p>
+<li>Wasser in den Topf gießen.</li>
+<li>Schweineknochen und geviertelte Tomaten hinzufügen.</li>
+<li>Die Suppe auf mittlerer Hitze etwa 1 Stunde köcheln lassen, damit die Aromen sich entfalten können.</li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li><strong>Vorbereitung der Beilagen:</strong></li>
+</ol>
 <ul>
-<li><p>Limetten achteln.</p></li>
-<li><p>Sojasprossen gründlich waschen.</p></li>
-<li><p>Frühlingszwiebeln fein hacken.</p></li>
-<li><p>Eisbergsalat in etwa 10 cm lange Streifen schneiden.</p></li>
-<li><p>Optional: Thai-Basilikumblätter von den Stängeln zupfen.</p></li>
-</ul></li>
-<li><p><strong>Zubereitung der Reisnudeln:</strong></p>
+<li>Limetten achteln.</li>
+<li>Sojasprossen gründlich waschen.</li>
+<li>Frühlingszwiebeln fein hacken.</li>
+<li>Eisbergsalat in etwa 10 cm lange Streifen schneiden.</li>
+<li>Optional: Thai-Basilikumblätter von den Stängeln zupfen.</li>
+</ul>
+<ol start="4" style="list-style-type: decimal">
+<li><strong>Zubereitung der Reisnudeln:</strong></li>
+</ol>
 <ul>
 <li>Die Reisnudeln in einem separaten Topf gemäß Packungsanleitung gar kochen.</li>
-</ul></li>
-<li><p><strong>Finalisieren der Suppe:</strong></p>
+</ul>
+<ol start="5" style="list-style-type: decimal">
+<li><strong>Finalisieren der Suppe:</strong></li>
+</ol>
 <ul>
-<li><p>Kurz vor dem Anrichten die verquirlten Eier langsam in die köchelnde Suppe einrühren, sodass feine Fäden entstehen.</p></li>
-<li><p>Mit Fischsoße abschmecken, um der Suppe ihre charakteristische Würze zu verleihen.</p></li>
-</ul></li>
-<li><p><strong>Servieren:</strong></p>
+<li>Kurz vor dem Anrichten die verquirlten Eier langsam in die köchelnde Suppe einrühren, sodass feine Fäden entstehen.</li>
+<li>Mit Fischsoße abschmecken, um der Suppe ihre charakteristische Würze zu verleihen.</li>
+</ul>
+<ol start="6" style="list-style-type: decimal">
+<li><strong>Servieren:</strong></li>
+</ol>
 <ul>
 <li>Die Reisnudeln in Schalen anrichten, die heiße Suppe darübergeben und mit den vorbereiteten Beilagen nach Belieben garnieren.</li>
-</ul></li>
-</ol>
+</ul>
 </div>
 </div>
             </section>

@@ -29,7 +29,7 @@
   
   
 <link rel="prev" href="bun-rieu-ohne-krabben-zutatenmenge-nicht-getestet.html"/>
-<link rel="next" href="spaghetti-carbonara-testrezept.html"/>
+<link rel="next" href="chinesische-kartoffelsuppe.html"/>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -51,40 +51,40 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 <script>
-function scaleIngredients() {
-    // Get the number of servings from the input box
-    const servings = document.getElementById("servings").value;
-    
-    // Parse the base quantities from the hidden JSON div
-    const baseQuantities = JSON.parse(document.getElementById("baseQuantities").textContent);
-    
-    // Update each ingredient quantity based on the number of servings
-    baseQuantities.forEach(function(item) {
-        // Scale the quantity
-        const scaledQuantity = item.Quantity * servings;
-
-        // Adjust decimal places and hide trailing zeros
-        let formattedQuantity;
-        if (isNaN(scaledQuantity) || scaledQuantity === null) {
-            formattedQuantity = ""; // Hide invalid values
-        } else if (scaledQuantity < 1) {
-            formattedQuantity = parseFloat(scaledQuantity.toFixed(2)); // 2 decimal places, remove trailing zeros
-        } else if (scaledQuantity < 10) {
-            formattedQuantity = parseFloat(scaledQuantity.toFixed(1)); // 1 decimal place, remove trailing zeros
-        } else {
-            formattedQuantity = Math.round(scaledQuantity); // No decimal places
-        }
-
-        // Update the displayed quantity in the table
-        document.getElementById(`quantity-${item.id}`).textContent = formattedQuantity;
-
-        // Hide 'NA' in the comments column
-        const commentCell = document.getElementById(`comment-${item.id}`);
-        if (commentCell && commentCell.textContent.trim() === "NA") {
-            commentCell.textContent = ""; // Hide NA values
-        }
-    });
-}
+  function scaleIngredients() {
+      // Get the number of servings from the input box
+      const servings = document.getElementById("servings").value;
+      
+      // Parse the base quantities from the hidden JSON div (already set for 4 servings)
+      const baseQuantities = JSON.parse(document.getElementById("baseQuantities").textContent);
+  
+      // Update each ingredient quantity based on the number of servings
+      baseQuantities.forEach(function(item) {
+          // Scale the quantity
+          const scaledQuantity = (item.Quantity / 4) * servings; // Divide by 4 to normalize to 1 serving and scale
+  
+          // Adjust decimal places and hide trailing zeros
+          let formattedQuantity;
+          if (isNaN(scaledQuantity) || scaledQuantity === null) {
+              formattedQuantity = ""; // Hide invalid values
+          } else if (scaledQuantity < 1) {
+              formattedQuantity = parseFloat(scaledQuantity.toFixed(2)); // 2 decimal places, remove trailing zeros
+          } else if (scaledQuantity < 10) {
+              formattedQuantity = parseFloat(scaledQuantity.toFixed(1)); // 1 decimal place, remove trailing zeros
+          } else {
+              formattedQuantity = Math.round(scaledQuantity); // No decimal places
+          }
+  
+          // Update the displayed quantity in the table
+          document.getElementById(`quantity-${item.id}`).textContent = formattedQuantity;
+  
+          // Hide 'NA' in the comments column
+          const commentCell = document.getElementById(`comment-${item.id}`);
+          if (commentCell && commentCell.textContent.trim() === "NA") {
+              commentCell.textContent = ""; // Hide NA values
+          }
+      });
+  }
 </script>
 
 
@@ -139,9 +139,15 @@ document.addEventListener("DOMContentLoaded", function() {
 <li class="chapter" data-level="3.2" data-path="chicken-madras.html"><a href="chicken-madras.html#zutaten-2"><i class="fa fa-check"></i><b>3.2</b> Zutaten</a></li>
 <li class="chapter" data-level="3.3" data-path="chicken-madras.html"><a href="chicken-madras.html#zubereitung-2"><i class="fa fa-check"></i><b>3.3</b> Zubereitung</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="spaghetti-carbonara-testrezept.html"><a href="spaghetti-carbonara-testrezept.html"><i class="fa fa-check"></i><b>4</b> Spaghetti Carbonara (Testrezept)</a>
+<li class="chapter" data-level="4" data-path="chinesische-kartoffelsuppe.html"><a href="chinesische-kartoffelsuppe.html"><i class="fa fa-check"></i><b>4</b> Chinesische Kartoffelsuppe</a>
 <ul>
-<li class="chapter" data-level="4.1" data-path="spaghetti-carbonara-testrezept.html"><a href="spaghetti-carbonara-testrezept.html#zutaten-3"><i class="fa fa-check"></i><b>4.1</b> Zutaten</a></li>
+<li class="chapter" data-level="4.1" data-path="chinesische-kartoffelsuppe.html"><a href="chinesische-kartoffelsuppe.html#to-do-liste-2"><i class="fa fa-check"></i><b>4.1</b> TO-DO Liste</a></li>
+<li class="chapter" data-level="4.2" data-path="chinesische-kartoffelsuppe.html"><a href="chinesische-kartoffelsuppe.html#zutaten-3"><i class="fa fa-check"></i><b>4.2</b> Zutaten</a></li>
+<li class="chapter" data-level="4.3" data-path="chinesische-kartoffelsuppe.html"><a href="chinesische-kartoffelsuppe.html#zubereitung-3"><i class="fa fa-check"></i><b>4.3</b> Zubereitung</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="spaghetti-carbonara-testrezept.html"><a href="spaghetti-carbonara-testrezept.html"><i class="fa fa-check"></i><b>5</b> Spaghetti Carbonara (Testrezept)</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="spaghetti-carbonara-testrezept.html"><a href="spaghetti-carbonara-testrezept.html#zutaten-4"><i class="fa fa-check"></i><b>5.1</b> Zutaten</a></li>
 </ul></li>
 </ul>
 
@@ -167,9 +173,6 @@ document.addEventListener("DOMContentLoaded", function() {
 <h2><span class="header-section-number">3.1</span> TO-DO Liste<a href="chicken-madras.html#to-do-liste-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
 <li>Bild von Gericht einfügen</li>
-<li><del>Zutaten bestimmen</del></li>
-<li>Zutatenmenge für 4 Portionen bestimmen</li>
-<li>Zubereitungstext formulieren</li>
 </ul>
 </div>
 <div id="zutaten-2" class="section level2 hasAnchor" number="3.2">
@@ -177,7 +180,7 @@ document.addEventListener("DOMContentLoaded", function() {
 <div>
 <label for="servings">Anzahl der Portionen:</label>
 <input id="servings" type="number" value="4" min="1" oninput="scaleIngredients()"/>
-<div id="baseQuantities" style="display:none;">[{"id":1,"Quantity":0.25},{"id":2,"Quantity":0.5},{"id":3,"Quantity":0.25},{"id":4,"Quantity":0.125},{"id":5,"Quantity":0.25},{"id":6,"Quantity":0.125},{"id":7,"Quantity":0.25},{"id":8,"Quantity":0.25},{"id":9,"Quantity":0.25},{"id":10,"Quantity":100},{"id":11,"Quantity":100},{"id":12,"Quantity":1},{"id":13,"Quantity":100}]</div>
+<div id="baseQuantities" style="display:none;">[{"id":1,"Quantity":1},{"id":2,"Quantity":2},{"id":3,"Quantity":1},{"id":4,"Quantity":0.5},{"id":5,"Quantity":1},{"id":6,"Quantity":0.5},{"id":7,"Quantity":1},{"id":8,"Quantity":1},{"id":9,"Quantity":1},{"id":10,"Quantity":400},{"id":11,"Quantity":400},{"id":12,"Quantity":4},{"id":13,"Quantity":400}]</div>
 </div>
 <table>
 <thead>
@@ -191,79 +194,79 @@ document.addEventListener("DOMContentLoaded", function() {
 <tbody>
 <tr>
 <td>Zwiebeln (geviertelt)</td>
-<td id="quantity-1">0.25</td>
+<td id="quantity-1">1</td>
 <td>Stück</td>
 <td></td>
 </tr>
 <tr>
 <td>Knoblauch (Zeh)</td>
-<td id="quantity-2">0.5</td>
+<td id="quantity-2">2</td>
 <td>Stück</td>
 <td></td>
 </tr>
 <tr>
 <td>Ingwer (daumengroß, geschält)</td>
-<td id="quantity-3">0.25</td>
+<td id="quantity-3">1</td>
 <td>Stück</td>
 <td></td>
 </tr>
 <tr>
 <td>Chili (rot)</td>
-<td id="quantity-4">0.125</td>
+<td id="quantity-4">0.5</td>
 <td>Stück</td>
 <td></td>
 </tr>
 <tr>
 <td>Öl</td>
-<td id="quantity-5">0.25</td>
+<td id="quantity-5">1</td>
 <td>Teelöffel</td>
 <td></td>
 </tr>
 <tr>
 <td>Kurkuma</td>
-<td id="quantity-6">0.125</td>
+<td id="quantity-6">0.5</td>
 <td>Teelöffel</td>
 <td></td>
 </tr>
 <tr>
 <td>Kreuzkümmel (gemahlen)</td>
-<td id="quantity-7">0.25</td>
+<td id="quantity-7">1</td>
 <td>Teelöffel</td>
 <td></td>
 </tr>
 <tr>
 <td>Koriander (gemahlen)</td>
-<td id="quantity-8">0.25</td>
+<td id="quantity-8">1</td>
 <td>Teelöffel</td>
 <td></td>
 </tr>
 <tr>
 <td>Chilipulver</td>
-<td id="quantity-9">0.25</td>
+<td id="quantity-9">1</td>
 <td>Teelöffel</td>
 <td></td>
 </tr>
 <tr>
 <td>Hähnchenbrust</td>
-<td id="quantity-10">100</td>
+<td id="quantity-10">400</td>
 <td>g</td>
 <td></td>
 </tr>
 <tr>
 <td>Tomaten (gehackt)</td>
-<td id="quantity-11">100</td>
+<td id="quantity-11">400</td>
 <td>g</td>
 <td></td>
 </tr>
 <tr>
 <td>Salz</td>
-<td id="quantity-12">1</td>
+<td id="quantity-12">4</td>
 <td>g</td>
 <td></td>
 </tr>
 <tr>
 <td>Reis</td>
-<td id="quantity-13">100</td>
+<td id="quantity-13">400</td>
 <td>g</td>
 <td></td>
 </tr>
@@ -299,7 +302,6 @@ document.addEventListener("DOMContentLoaded", function() {
 <li><p>Alles gut umrühren, die Pfanne mit einem Deckel abdecken und das Gericht bei niedriger Hitze 25–30 Minuten köcheln lassen, bis das Hähnchen zart ist und die Soße leicht eingedickt ist.</p></li>
 </ul></li>
 </ol>
-
 </div>
 </div>
             </section>
@@ -308,7 +310,7 @@ document.addEventListener("DOMContentLoaded", function() {
         </div>
       </div>
 <a href="bun-rieu-ohne-krabben-zutatenmenge-nicht-getestet.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="spaghetti-carbonara-testrezept.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="chinesische-kartoffelsuppe.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

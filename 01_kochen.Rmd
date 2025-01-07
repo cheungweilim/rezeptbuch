@@ -48,48 +48,33 @@ generate_ingredient_table(ingredients)
 **Zubereitung für die vietnamesische Nudelsuppe Bun Rieu:**
 
 1.  **Vorbereitung der Basis:**
-
-    -   Zwiebeln fein hacken und Karotten in etwa 1 cm große Stücke schneiden.
-
-    -   Zwiebeln in einem großen Topf mit etwas Öl anschwitzen, bis sie glasig sind.
-
-    -   Tomatenmark und die Karotten hinzufügen, kurz anbraten, bis alles leicht aromatisch ist.
+  - Zwiebeln fein hacken und Karotten in etwa 1 cm große Stücke schneiden.
+  - Zwiebeln in einem großen Topf mit etwas Öl anschwitzen, bis sie glasig sind.
+  - Tomatenmark und die Karotten hinzufügen, kurz anbraten, bis alles leicht aromatisch ist.
 
 2.  **Zubereitung der Brühe:**
-
-    -   Wasser in den Topf gießen.
-
-    -   Schweineknochen und geviertelte Tomaten hinzufügen.
-
-    -   Die Suppe auf mittlerer Hitze etwa 1 Stunde köcheln lassen, damit die Aromen sich entfalten können.
+  - Wasser in den Topf gießen.
+  - Schweineknochen und geviertelte Tomaten hinzufügen.
+  - Die Suppe auf mittlerer Hitze etwa 1 Stunde köcheln lassen, damit die Aromen sich entfalten können.
 
 3.  **Vorbereitung der Beilagen:**
-
-    -   Limetten achteln.
-
-    -   Sojasprossen gründlich waschen.
-
-    -   Frühlingszwiebeln fein hacken.
-
-    -   Eisbergsalat in etwa 10 cm lange Streifen schneiden.
-
-    -   Optional: Thai-Basilikumblätter von den Stängeln zupfen.
+  -   Limetten achteln.
+  -   Sojasprossen gründlich waschen.
+  -   Frühlingszwiebeln fein hacken.
+  -   Eisbergsalat in etwa 10 cm lange Streifen schneiden.
+  -   Optional: Thai-Basilikumblätter von den Stängeln zupfen.
 
 4.  **Zubereitung der Reisnudeln:**
-
-    -   Die Reisnudeln in einem separaten Topf gemäß Packungsanleitung gar kochen.
+  -   Die Reisnudeln in einem separaten Topf gemäß Packungsanleitung gar kochen.
 
 5.  **Finalisieren der Suppe:**
-
-    -   Kurz vor dem Anrichten die verquirlten Eier langsam in die köchelnde Suppe einrühren, sodass feine Fäden entstehen.
-
-    -   Mit Fischsoße abschmecken, um der Suppe ihre charakteristische Würze zu verleihen.
+  -   Kurz vor dem Anrichten die verquirlten Eier langsam in die köchelnde Suppe einrühren, sodass feine Fäden entstehen.
+  -   Mit Fischsoße abschmecken, um der Suppe ihre charakteristische Würze zu verleihen.
 
 6.  **Servieren:**
+  -   Die Reisnudeln in Schalen anrichten, die heiße Suppe darübergeben und mit den vorbereiteten Beilagen nach Belieben garnieren.
 
-    -   Die Reisnudeln in Schalen anrichten, die heiße Suppe darübergeben und mit den vorbereiteten Beilagen nach Belieben garnieren.
-
-# Chicken madras
+# Chicken madras (Zutatenmenge testen)
 
 Indisches Hähnchen-Curry von bbcgoodfood.com (Elena Silcock)
 
@@ -136,3 +121,57 @@ generate_ingredient_table(ingredients)
     -   Die gehackten Tomaten und eine Prise Salz in die Pfanne geben.
 
     -   Alles gut umrühren, die Pfanne mit einem Deckel abdecken und das Gericht bei niedriger Hitze 25--30 Minuten köcheln lassen, bis das Hähnchen zart ist und die Soße leicht eingedickt ist.
+
+# Chinesische Kartoffelsuppe (Zutatenmenge testen)
+
+## TO-DO Liste
+
+-   Bild von Gericht einfügen
+
+## Zutaten
+
+```{r echo=FALSE, results='asis'}
+ingredients <- read_excel("tbl/chinesische-kartoffelsuppe.xlsx")
+ingredients[is.na(ingredients)] <- ""
+generate_ingredient_table(ingredients)
+```
+
+## Zubereitung
+
+1.  **Vorbereitung:**
+
+    -   Kartoffeln schälen und in feine Streifen schneiden.
+
+    -   Frühlingszwiebeln waschen und in kleine Ringe hacken.
+
+2.  **Kartoffeln vorkochen:**
+
+    -   Einen Topf mit Wasser zum Kochen bringen und die Kartoffelstreifen hineingeben.
+
+    -   Die Kartoffeln etwa 3--5 Minuten vorkochen, bis sie leicht weich werden.
+
+3.  **Grundlage würzen:**
+
+    -   Salz und Brühe (z. B. Hühner- oder Gemüsebrühe) in den Topf geben und gut umrühren.
+
+    -   Die Hitze reduzieren und die Suppe leicht köcheln lassen.
+
+4.  **Eier und Frühlingszwiebeln hinzufügen:**
+
+    -   Die Eier in einer separaten Schüssel verquirlen.
+
+    -   Die verquirlten Eier langsam in die köchelnde Suppe gießen, dabei ständig rühren, um feine Eifäden zu erzeugen.
+
+    -   Die gehackten Frühlingszwiebeln hinzufügen und kurz mitkochen.
+
+5.  **Konsistenz anpassen:**
+
+    -   Kartoffelmehl in einer kleinen Schüssel mit etwas kaltem Wasser anrühren, bis keine Klümpchen mehr vorhanden sind.
+
+    -   Die Mischung langsam in die Suppe geben, dabei ständig rühren, bis die gewünschte Konsistenz erreicht ist.
+
+6.  **Abschmecken:**
+
+    -   Die Suppe mit ein paar Tropfen Sesamöl verfeinern.
+
+    -   Nach Geschmack zusätzlich mit Pfeffer würzen.
