@@ -93,34 +93,24 @@ generate_ingredient_table(ingredients)
 ## Zubereitung
 
 1.  **Paste zubereiten:**
-
-    -   Die geviertelten Zwiebeln, die Knoblauchzehen, den Ingwer und die halbe Chili in einen Mixer geben und zu einer glatten Paste verarbeiten.
+  - Die geviertelten Zwiebeln, die Knoblauchzehen, den Ingwer und die halbe Chili in einen Mixer geben und zu einer glatten Paste verarbeiten.
 
 2.  **Paste anbraten:**
-
-    -   Öl in einer großen Pfanne oder einem Topf erhitzen.
-
-    -   Die vorbereitete Paste darin bei mittlerer Hitze etwa 5 Minuten anbraten, bis sie weich ist und ein aromatischer Duft entsteht.
-
-    -   Sollte die Paste an der Pfanne kleben, etwas Wasser hinzufügen und weiter rühren.
+  -   Öl in einer großen Pfanne oder einem Topf erhitzen.
+  -   Die vorbereitete Paste darin bei mittlerer Hitze etwa 5 Minuten anbraten, bis sie weich ist und ein aromatischer Duft entsteht.
+  -   Sollte die Paste an der Pfanne kleben, etwas Wasser hinzufügen und weiter rühren.
 
 3.  **Gewürze hinzufügen:**
-
-    -   Kurkuma, Kreuzkümmel, Koriander und Chilipulver in die Pfanne geben.
-
-    -   Die Mischung gut umrühren und für 1--2 Minuten rösten, damit die Gewürze ihr Aroma entfalten.
+  -   Kurkuma, Kreuzkümmel, Koriander und Chilipulver in die Pfanne geben.
+  -   Die Mischung gut umrühren und für 1--2 Minuten rösten, damit die Gewürze ihr Aroma entfalten.
 
 4.  **Hähnchen anbraten:**
-
-    -   Die in Stücke geschnittene Hähnchenbrust hinzufügen und gut mit der Gewürzpaste vermengen, sodass alle Stücke gleichmäßig bedeckt sind.
-
-    -   Die Hähnchenstücke anbraten, bis sie von allen Seiten weiß werden. Falls nötig, etwas Wasser hinzufügen, um ein Ankleben zu verhindern.
+  -   Die in Stücke geschnittene Hähnchenbrust hinzufügen und gut mit der Gewürzpaste vermengen, sodass alle Stücke gleichmäßig bedeckt sind.
+  -   Die Hähnchenstücke anbraten, bis sie von allen Seiten weiß werden. Falls nötig, etwas Wasser hinzufügen, um ein Ankleben zu verhindern.
 
 5.  **Tomaten und Köcheln:**
-
-    -   Die gehackten Tomaten und eine Prise Salz in die Pfanne geben.
-
-    -   Alles gut umrühren, die Pfanne mit einem Deckel abdecken und das Gericht bei niedriger Hitze 25--30 Minuten köcheln lassen, bis das Hähnchen zart ist und die Soße leicht eingedickt ist.
+  -   Die gehackten Tomaten und eine Prise Salz in die Pfanne geben.
+  -   Alles gut umrühren, die Pfanne mit einem Deckel abdecken und das Gericht bei niedriger Hitze 25--30 Minuten köcheln lassen, bis das Hähnchen zart ist und die Soße leicht eingedickt ist.
 
 # Chinesische Kartoffelsuppe (Zutatenmenge testen)
 
@@ -139,39 +129,26 @@ generate_ingredient_table(ingredients)
 ## Zubereitung
 
 1.  **Vorbereitung:**
-
-    -   Kartoffeln schälen und in feine Streifen schneiden.
-
-    -   Frühlingszwiebeln waschen und in kleine Ringe hacken.
+  -   Kartoffeln schälen und in feine Streifen schneiden.
+  -   Frühlingszwiebeln waschen und in kleine Ringe hacken.
 
 2.  **Kartoffeln vorkochen:**
-
-    -   Einen Topf mit Wasser zum Kochen bringen und die Kartoffelstreifen hineingeben.
-
-    -   Die Kartoffeln etwa 3--5 Minuten vorkochen, bis sie leicht weich werden.
+  -   Einen Topf mit Wasser zum Kochen bringen und die Kartoffelstreifen hineingeben.
+  -   Die Kartoffeln etwa 3--5 Minuten vorkochen, bis sie leicht weich werden.
 
 3.  **Grundlage würzen:**
-
-    -   Salz und Brühe (z. B. Hühner- oder Gemüsebrühe) in den Topf geben und gut umrühren.
-
-    -   Die Hitze reduzieren und die Suppe leicht köcheln lassen.
+  -   Salz und Brühe (z. B. Hühner- oder Gemüsebrühe) in den Topf geben und gut umrühren.
+  -   Die Hitze reduzieren und die Suppe leicht köcheln lassen.
 
 4.  **Eier und Frühlingszwiebeln hinzufügen:**
-
-    -   Die Eier in einer separaten Schüssel verquirlen.
-
-    -   Die verquirlten Eier langsam in die köchelnde Suppe gießen, dabei ständig rühren, um feine Eifäden zu erzeugen.
-
-    -   Die gehackten Frühlingszwiebeln hinzufügen und kurz mitkochen.
+  -   Die Eier in einer separaten Schüssel verquirlen.
+  -   Die verquirlten Eier langsam in die köchelnde Suppe gießen, dabei ständig rühren, um feine Eifäden zu erzeugen.
+  -   Die gehackten Frühlingszwiebeln hinzufügen und kurz mitkochen.
 
 5.  **Konsistenz anpassen:**
-
-    -   Kartoffelmehl in einer kleinen Schüssel mit etwas kaltem Wasser anrühren, bis keine Klümpchen mehr vorhanden sind.
-
-    -   Die Mischung langsam in die Suppe geben, dabei ständig rühren, bis die gewünschte Konsistenz erreicht ist.
+  -   Kartoffelmehl in einer kleinen Schüssel mit etwas kaltem Wasser anrühren, bis keine Klümpchen mehr vorhanden sind.
+  -   Die Mischung langsam in die Suppe geben, dabei ständig rühren, bis die gewünschte Konsistenz erreicht ist.
 
 6.  **Abschmecken:**
-
-    -   Die Suppe mit ein paar Tropfen Sesamöl verfeinern.
-
-    -   Nach Geschmack zusätzlich mit Pfeffer würzen.
+  -   Die Suppe mit ein paar Tropfen Sesamöl verfeinern.
+  -   Nach Geschmack zusätzlich mit Pfeffer würzen.

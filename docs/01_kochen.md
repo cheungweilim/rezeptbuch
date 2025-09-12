@@ -207,7 +207,7 @@ Vietnamnesische Reisnudelsuppe mit Schweinsknochen
 6.  **Servieren:**
   -   Die Reisnudeln in Schalen anrichten, die heiße Suppe darübergeben und mit den vorbereiteten Beilagen nach Belieben garnieren.
 
-# Chicken madras
+# Chicken madras (Zutatenmenge testen)
 
 Indisches Hähnchen-Curry von bbcgoodfood.com (Elena Silcock)
 
@@ -319,43 +319,30 @@ Indisches Hähnchen-Curry von bbcgoodfood.com (Elena Silcock)
 ## Zubereitung
 
 1.  **Paste zubereiten:**
-
-    -   Die geviertelten Zwiebeln, die Knoblauchzehen, den Ingwer und die halbe Chili in einen Mixer geben und zu einer glatten Paste verarbeiten.
+  - Die geviertelten Zwiebeln, die Knoblauchzehen, den Ingwer und die halbe Chili in einen Mixer geben und zu einer glatten Paste verarbeiten.
 
 2.  **Paste anbraten:**
-
-    -   Öl in einer großen Pfanne oder einem Topf erhitzen.
-
-    -   Die vorbereitete Paste darin bei mittlerer Hitze etwa 5 Minuten anbraten, bis sie weich ist und ein aromatischer Duft entsteht.
-
-    -   Sollte die Paste an der Pfanne kleben, etwas Wasser hinzufügen und weiter rühren.
+  -   Öl in einer großen Pfanne oder einem Topf erhitzen.
+  -   Die vorbereitete Paste darin bei mittlerer Hitze etwa 5 Minuten anbraten, bis sie weich ist und ein aromatischer Duft entsteht.
+  -   Sollte die Paste an der Pfanne kleben, etwas Wasser hinzufügen und weiter rühren.
 
 3.  **Gewürze hinzufügen:**
-
-    -   Kurkuma, Kreuzkümmel, Koriander und Chilipulver in die Pfanne geben.
-
-    -   Die Mischung gut umrühren und für 1--2 Minuten rösten, damit die Gewürze ihr Aroma entfalten.
+  -   Kurkuma, Kreuzkümmel, Koriander und Chilipulver in die Pfanne geben.
+  -   Die Mischung gut umrühren und für 1--2 Minuten rösten, damit die Gewürze ihr Aroma entfalten.
 
 4.  **Hähnchen anbraten:**
-
-    -   Die in Stücke geschnittene Hähnchenbrust hinzufügen und gut mit der Gewürzpaste vermengen, sodass alle Stücke gleichmäßig bedeckt sind.
-
-    -   Die Hähnchenstücke anbraten, bis sie von allen Seiten weiß werden. Falls nötig, etwas Wasser hinzufügen, um ein Ankleben zu verhindern.
+  -   Die in Stücke geschnittene Hähnchenbrust hinzufügen und gut mit der Gewürzpaste vermengen, sodass alle Stücke gleichmäßig bedeckt sind.
+  -   Die Hähnchenstücke anbraten, bis sie von allen Seiten weiß werden. Falls nötig, etwas Wasser hinzufügen, um ein Ankleben zu verhindern.
 
 5.  **Tomaten und Köcheln:**
+  -   Die gehackten Tomaten und eine Prise Salz in die Pfanne geben.
+  -   Alles gut umrühren, die Pfanne mit einem Deckel abdecken und das Gericht bei niedriger Hitze 25--30 Minuten köcheln lassen, bis das Hähnchen zart ist und die Soße leicht eingedickt ist.
 
-    -   Die gehackten Tomaten und eine Prise Salz in die Pfanne geben.
-
-    -   Alles gut umrühren, die Pfanne mit einem Deckel abdecken und das Gericht bei niedriger Hitze 25--30 Minuten köcheln lassen, bis das Hähnchen zart ist und die Soße leicht eingedickt ist.
-
-# Chinesische Kartoffelsuppe
+# Chinesische Kartoffelsuppe (Zutatenmenge testen)
 
 ## TO-DO Liste
 
 -   Bild von Gericht einfügen
--   ~~Zutaten bestimmen~~
--   Zutatenmenge für 4 Portionen bestimmen
--   Zubereitungstext formulieren
 
 ## Zutaten
 
@@ -364,7 +351,7 @@ Indisches Hähnchen-Curry von bbcgoodfood.com (Elena Silcock)
 <div>
 <label for="servings">Anzahl der Portionen:</label>
 <input id="servings" type="number" value="4" min="1" oninput="scaleIngredients()"/>
-<div id="baseQuantities" style="display:none;">[{"id":1,"Quantity":500},{"id":2,"Quantity":6},{"id":3,"Quantity":1},{"id":4,"Quantity":4},{"id":5,"Quantity":1},{"id":6,"Quantity":2},{"id":7,"Quantity":2},{"id":8,"Quantity":2}]</div>
+<div id="baseQuantities" style="display:none;">[{"id":1,"Quantity":700},{"id":2,"Quantity":3},{"id":3,"Quantity":1},{"id":4,"Quantity":2},{"id":5,"Quantity":1},{"id":6,"Quantity":1},{"id":7,"Quantity":3},{"id":8,"Quantity":2}]</div>
 </div>
 <table>
 <thead>
@@ -378,25 +365,25 @@ Indisches Hähnchen-Curry von bbcgoodfood.com (Elena Silcock)
 <tbody>
 <tr>
 <td>Kartoffel</td>
-<td id="quantity-1">500</td>
+<td id="quantity-1">700</td>
 <td>g</td>
 <td></td>
 </tr>
 <tr>
 <td>Frühlingszwiebel</td>
-<td id="quantity-2">6</td>
+<td id="quantity-2">3</td>
 <td>Stück</td>
 <td></td>
 </tr>
 <tr>
-<td>Ei (verquirllt)</td>
+<td>Ei (M)</td>
 <td id="quantity-3">1</td>
 <td>Stück</td>
 <td></td>
 </tr>
 <tr>
 <td>Wasser</td>
-<td id="quantity-4">4</td>
+<td id="quantity-4">2</td>
 <td>l</td>
 <td></td>
 </tr>
@@ -408,13 +395,13 @@ Indisches Hähnchen-Curry von bbcgoodfood.com (Elena Silcock)
 </tr>
 <tr>
 <td>Kartoffelmehl</td>
-<td id="quantity-6">2</td>
-<td>Teelöffel</td>
+<td id="quantity-6">1</td>
+<td>Esslöffel</td>
 <td></td>
 </tr>
 <tr>
 <td>Gemüsebrühe</td>
-<td id="quantity-7">2</td>
+<td id="quantity-7">3</td>
 <td>Teelöffel</td>
 <td></td>
 </tr>
@@ -431,39 +418,26 @@ Indisches Hähnchen-Curry von bbcgoodfood.com (Elena Silcock)
 ## Zubereitung
 
 1.  **Vorbereitung:**
-
-    -   Kartoffeln schälen und in feine Streifen schneiden.
-
-    -   Frühlingszwiebeln waschen und in kleine Ringe hacken.
+  -   Kartoffeln schälen und in feine Streifen schneiden.
+  -   Frühlingszwiebeln waschen und in kleine Ringe hacken.
 
 2.  **Kartoffeln vorkochen:**
-
-    -   Einen Topf mit Wasser zum Kochen bringen und die Kartoffelstreifen hineingeben.
-
-    -   Die Kartoffeln etwa 3--5 Minuten vorkochen, bis sie leicht weich werden.
+  -   Einen Topf mit Wasser zum Kochen bringen und die Kartoffelstreifen hineingeben.
+  -   Die Kartoffeln etwa 3--5 Minuten vorkochen, bis sie leicht weich werden.
 
 3.  **Grundlage würzen:**
-
-    -   Salz und Brühe (z. B. Hühner- oder Gemüsebrühe) in den Topf geben und gut umrühren.
-
-    -   Die Hitze reduzieren und die Suppe leicht köcheln lassen.
+  -   Salz und Brühe (z. B. Hühner- oder Gemüsebrühe) in den Topf geben und gut umrühren.
+  -   Die Hitze reduzieren und die Suppe leicht köcheln lassen.
 
 4.  **Eier und Frühlingszwiebeln hinzufügen:**
-
-    -   Die Eier in einer separaten Schüssel verquirlen.
-
-    -   Die verquirlten Eier langsam in die köchelnde Suppe gießen, dabei ständig rühren, um feine Eifäden zu erzeugen.
-
-    -   Die gehackten Frühlingszwiebeln hinzufügen und kurz mitkochen.
+  -   Die Eier in einer separaten Schüssel verquirlen.
+  -   Die verquirlten Eier langsam in die köchelnde Suppe gießen, dabei ständig rühren, um feine Eifäden zu erzeugen.
+  -   Die gehackten Frühlingszwiebeln hinzufügen und kurz mitkochen.
 
 5.  **Konsistenz anpassen:**
-
-    -   Kartoffelmehl in einer kleinen Schüssel mit etwas kaltem Wasser anrühren, bis keine Klümpchen mehr vorhanden sind.
-
-    -   Die Mischung langsam in die Suppe geben, dabei ständig rühren, bis die gewünschte Konsistenz erreicht ist.
+  -   Kartoffelmehl in einer kleinen Schüssel mit etwas kaltem Wasser anrühren, bis keine Klümpchen mehr vorhanden sind.
+  -   Die Mischung langsam in die Suppe geben, dabei ständig rühren, bis die gewünschte Konsistenz erreicht ist.
 
 6.  **Abschmecken:**
-
-    -   Die Suppe mit ein paar Tropfen Sesamöl verfeinern.
-
-    -   Nach Geschmack zusätzlich mit Pfeffer würzen.
+  -   Die Suppe mit ein paar Tropfen Sesamöl verfeinern.
+  -   Nach Geschmack zusätzlich mit Pfeffer würzen.

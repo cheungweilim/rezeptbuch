@@ -5,11 +5,11 @@ zubereitung
 bun-rieu-ohne-krabben-zutatenmenge-nicht-getestet
 zutaten-1
 zubereitung-1
-chicken-madras
+chicken-madras-zutatenmenge-testen
 to-do-liste-1
 zutaten-2
 zubereitung-2
-chinesische-kartoffelsuppe
+chinesische-kartoffelsuppe-zutatenmenge-testen
 to-do-liste-2
 zutaten-3
 zubereitung-3

@@ -6,7 +6,7 @@ output:
     includes:
       in_header: header.html
     config:
-      toc_depth: 2
+      toc_depth: 3
       sharing:
         github: yes        # Enable sharing to GitHub
         facebook: no       # Disable Facebook sharing
